@@ -1,4 +1,4 @@
-# Feb 25 2021 - Researching
+# Feb 25 2021 - Researching Tips and Notes
 
 ## Researching your topic
 
