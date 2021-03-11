@@ -167,3 +167,43 @@
   * Describes feature extraction techniques
   * Includes a little comparison on other related work
 
+## Research 11/03/21
+
+* [The Effect of Person-Specific Biometrics in Improving Generic Stress Predictive Models](https://arxiv.org/abs/1910.01770)
+  * Paper with code; uses HRV and EDA from SWELL and WESAD Datasets
+  * Aims to improve stress detection in generic models via calibration
+  * Focused on stress in work setting
+  * Algorithm for Model Calibration:
+    * Input: ML Algo
+    * Data:
+      * Sampled generic data from n people
+      * Sampled calibration data that belong to q unseen people (q less than n)
+    * Output: trained calibration model
+    * Algo:
+      * Data = shuffled (sampled generic and calibration data)
+      * Train model using ML algorithm on shuffled data
+  * Step 1: Collect physiological data and calibration data
+    * Use watch like Empatica E4 to collect EDA and HRV
+    * Have subjects take self-evaluation surveys
+    * Data collected in database
+    * Automatically create user personalised model by training new user-specific data with generic model
+  * Step 2: Machine Learning
+    * After models deployed, periodically provide additional calibration samples via surveys and watch
+      * Re-calibration as model may drift (concept drift) - this is inherent as stress is dynamic
+    * Adapt/re-traing model for new calibration if accuracy decreases
+      * Computationally expensive and time consuming
+  * Step 3: Model deployment
+    * Paper uses REST (REST Application Program Interface) API
+  * Need to validate assumptions
+  * Benefits to this approach:
+    * lower cost: instead of training a model for each user, 'transfer learn'
+    * practicality: person-specific models are more useful than generic models
+    * straightforward deployment: person-specific models are generated using small user samples and obtained unobtrusively; i.e. via smart phone application
+  * Limitations:
+    * Study did not look at real-world stress settings
+    * Study only used 2 datasets
+    * External factors can influence EDA and HRV
+      * EDA can be influenced by person's hydration, ambient temperature, ambient humidity
+        * EDA may fluctuate from user to user
+    * Stress is multifaceted (physiological, behavioural, affective responses)
+      * Need consider context (where, what, when, who, why and how)
