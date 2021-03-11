@@ -27,3 +27,29 @@
     * Sleeping, laying down, sitting (studying, eating, drinking), light movement(walk/chores/work), medium(fast walk/bike), heavy(gym/running), eating, small screen usage, large screen usage, caffeinated drink consumption, smoking, alcohol consumption
   * Do I need to feedback and determine and relate what activity/factor cause stress?
     * Thing to do later potentially once/if I get things working
+
+## Meeting with Yan
+
+* Mind-map the options I have
+* Come up with decision by next week
+* Order components
+  * Hardware
+    * Smart watch (accelerometer, HR, sleep) + phone accelerometer
+    * Build own smart watch
+      * 'HD' will be getting hardware to work with generic ML algo
+    * Buy smart watch ($$$$$)
+    * Laboratory settings; ECGs, lots of wires everywhere
+    * No hardware at all; just use online datasets
+      * 'HD' will be innovative/cool ML algorithm
+  * Software
+    * From hardware
+    * Use online datasets
+  * Algo
+    * Depends on hardware
+      * Most likely ML algo, like SVM, decision trees
+  * Data collection
+    * Daily life settings: Surveys
+      * Self-assessment of stress
+      * Activity being performed (context data)
+      * Phone screen input pressure
+    * Frequency of surveying

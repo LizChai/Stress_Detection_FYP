@@ -71,6 +71,11 @@
     * [M5Stack ESP32 Basic Core IoT Dev Kit DigiKey](https://www.digikey.com.au/product-detail/en/m5stack-technology-co-ltd/K001/2221-K001-ND/10492140) - $40.61
     * [M5Stack ESP32 Basic Core IoT Dev Kit Core Electronics](https://core-electronics.com.au/m5stack-esp32-basic-core-iot-development-kit.html) - $45.50
     * [Arduino Nano 33 IoT](https://www.digikey.com.au/product-detail/en/arduino/ABX00027/1050-ABX00027-ND/10239968) - $31.31
+      * None of these are battery powered
+1. Microcontroller with JST battery management
+    * [ESP32 - Huzzah32 Feather DigiKey](https://www.digikey.com.au/product-detail/en/adafruit-industries-llc/3405/1528-2181-ND/7244967) - $28
+1. LiPo Battery
+    * [LiPo (Rechargeable, 1.1Ah) DigiKey](https://www.digikey.com/en/products/detail/tinycircuits/ASR00008/8680974) - $10
 
 ## Progress
 
