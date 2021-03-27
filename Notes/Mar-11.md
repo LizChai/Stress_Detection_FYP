@@ -1,6 +1,6 @@
 # Mar 11 2021 - Progress Update and Notes
 
-* [Miro Mindmap](https://miro.com/welcome/gHHweXk5CalDfzP1RgS5b9PC5UKNU4pRLoc05oxxaahcdVaJ9rDzCYDU6t0zy3PX)
+* [Miro Mindmap](https://miro.com/app/board/o9J_lP_cemU=/)
 
 * Setup python environment
   * cd C:\Users\ieliz\Documents\2021\FYP\Stress_Detection_FYP

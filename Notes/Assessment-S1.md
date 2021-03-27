@@ -18,7 +18,7 @@ This Milestone is an initial investigation of the Safety Risks involved in the p
 * Ergonomics
 * Can be done in an afternoon
 
-## Requirements Analysis - Week 4
+## Requirements Analysis - Week 5
 
 This Milestone is used to ensure both the student and supervisor have a common understanding of the direction, focus and outcomes intended from the project. It will be used as benchmark during the final presentation of findings.
 

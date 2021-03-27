@@ -20,7 +20,7 @@
 
 ## Research 05/03/21
 
-* [Smart Wristband-Based Stress Detection Framework for Older Adults with Cortisol as Stress Biomarker](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9349773)
+* [Smart Wristband-Based Stress Detection Framework for Older Adults with Cortisol as Stress Biomarker](https://ieeexplore.ieee.org/document/9349773)
   * Stress detection model for older adults using system of sensors on watches
     * Uses EDA, BVP, IBI and ST from EDA, PPG and ST sensors
       * EDA: electrodermal activity
@@ -190,7 +190,7 @@
   * Step 2: Machine Learning
     * After models deployed, periodically provide additional calibration samples via surveys and watch
       * Re-calibration as model may drift (concept drift) - this is inherent as stress is dynamic
-    * Adapt/re-traing model for new calibration if accuracy decreases
+    * Adapt/re-training model for new calibration if accuracy decreases
       * Computationally expensive and time consuming
   * Step 3: Model deployment
     * Paper uses REST (REST Application Program Interface) API
@@ -207,3 +207,22 @@
         * EDA may fluctuate from user to user
     * Stress is multifaceted (physiological, behavioural, affective responses)
       * Need consider context (where, what, when, who, why and how)
+
+## Research 15/03/21
+
+* [Emotional sweating across the body: Comparing 16 different skin conductance measurement locations](https://www.sciencedirect.com/science/article/pii/S0031938412000613)
+  * Studied emotional responsiveness of different body locations
+  * Foot, fingers and shoulders are most responsive and most similar
+  * Skin conductance (aka EDA): varying electrical properties of the skin with respect to sweat secretion by sweat glands
+  * Three types of sweat glands: eccrine, apocrine and apoeccrine
+    * Eccrine: emotional response; innervated by sympathetic nerves which accompany psychological processes including emotional arousal
+  * Magnitude of sweating depends on density of sweat glands, relative size and output of individual glands; which varies between individuals
+  * Highest density of eccrine sweat glands are found on palms and soles
+  * GSR measures skin conductance level (SCL), skin conductance responses per minute (SCR), sum of skin conductance responses amplitudes per minute (S-AMPL)
+  * Automated detection algorithm (SCRGauge) applied for detecting individual skin conductance responses and their amplitudes using threshold
+
+## Research 24/03/21
+
+* [STRESS AND HEALTH: Psychological, Behavioral, and Biological Determinants
+](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2568977/)
+  * Types of stress

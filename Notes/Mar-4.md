@@ -8,7 +8,7 @@
   * Synthesised reviews
   * Purpose is to evaluate research on specific topic
 * Functions as a tool to:
-  * provide a background to your work by summarising the previously  published work
+  * provide a background to your work by summarising the previously published work
   * classify the research into different categories and demonstrate how the research in a particular area has changed over time by indicating historical background (early research findings in an area) as well as explaining recent developments in an area
   * clarify areas of controversy and agreement between experts in the area as well as identify dominant views
   * evaluate the previous research and identify gaps (i.e. unexplored areas)
