@@ -348,3 +348,13 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# FYP Files
+hello_world/build/**
+i2c_self_test/build/**
+fyp_dev/Lib/
+fyp_dev/Scripts/
+fyp_dev/etc/
+fyp_dev/share/
+fyp_dev/stress_datasets/
+
