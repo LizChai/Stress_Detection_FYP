@@ -38,16 +38,16 @@ static const char *TAG = "i2c-example";
 #define I2C_MASTER_TX_BUF_DISABLE 0                           /*!< I2C master doesn't need buffer */
 #define I2C_MASTER_RX_BUF_DISABLE 0                           /*!< I2C master doesn't need buffer */
 
-#define HR_SENSOR_ADDR 0xA0 /*!< Grove HR Sensor address */
-//#define BH1750_SENSOR_ADDR CONFIG_BH1750_ADDR   /*!< slave address for BH1750 sensor */
-//#define BH1750_CMD_START CONFIG_BH1750_OPMODE   /*!< Operation mode */
-// #define ESP_SLAVE_ADDR CONFIG_I2C_SLAVE_ADDRESS /*!< ESP32 slave address, you can set any 7bit value */
-#define WRITE_BIT I2C_MASTER_WRITE /*!< I2C master write */
-#define READ_BIT I2C_MASTER_READ   /*!< I2C master read */
-#define ACK_CHECK_EN 0x1           /*!< I2C master will check ack from slave*/
-#define ACK_CHECK_DIS 0x0          /*!< I2C master will not check ack from slave */
-#define ACK_VAL 0x0                /*!< I2C ack value */
-#define NACK_VAL 0x1               /*!< I2C nack value */
+#define HR_SENSOR_ADDR 0x50                     /*!< Grove HR Sensor address, 8-bit: 0xA0, 7-bit: 0x50 */
+#define BH1750_SENSOR_ADDR CONFIG_BH1750_ADDR   /*!< slave address for BH1750 sensor, NOT USED */
+#define BH1750_CMD_START CONFIG_BH1750_OPMODE   /*!< Operation mode, NOT USED */
+#define ESP_SLAVE_ADDR CONFIG_I2C_SLAVE_ADDRESS /*!< ESP32 slave address, you can set any 7bit value, NOT USED */
+#define WRITE_BIT I2C_MASTER_WRITE              /*!< I2C master write */
+#define READ_BIT I2C_MASTER_READ                /*!< I2C master read */
+#define ACK_CHECK_EN 0x1                        /*!< I2C master will check ack from slave*/
+#define ACK_CHECK_DIS 0x0                       /*!< I2C master will not check ack from slave */
+#define ACK_VAL 0x0                             /*!< I2C ack value */
+#define NACK_VAL 0x1                            /*!< I2C nack value */
 
 SemaphoreHandle_t print_mux = NULL;
 
@@ -68,7 +68,7 @@ static esp_err_t i2c_master_read_slave(i2c_port_t i2c_num, uint8_t *data_rd, siz
     }
     i2c_cmd_handle_t cmd = i2c_cmd_link_create();
     i2c_master_start(cmd);
-    i2c_master_write_byte(cmd, (HR_SENSOR_ADDR << 1) | READ_BIT, ACK_CHECK_EN);
+    i2c_master_write_byte(cmd, (HR_SENSOR_ADDR) | READ_BIT, ACK_CHECK_EN);
     if (size > 1)
     {
         i2c_master_read(cmd, data_rd, size - 1, ACK_VAL);
@@ -307,27 +307,38 @@ static void i2c_test_task(void *arg)
 
 void app_main(void)
 {
-    print_mux = xSemaphoreCreateMutex();
+    // print_mux = xSemaphoreCreateMutex();
     //ESP_ERROR_CHECK(i2c_slave_init());
     ESP_ERROR_CHECK(i2c_master_init());
     //xTaskCreate(i2c_test_task, "i2c_test_task_0", 1024 * 2, (void *)0, 10, NULL);
     //xTaskCreate(i2c_test_task, "i2c_test_task_1", 1024 * 2, (void *)1, 10, NULL);
-    uint8_t *data_rd = (uint8_t *)malloc(DATA_LENGTH);
+    uint8_t data_rd;
     int ret;
+
+    // ret = i2c_master_read_slave(I2C_MASTER_NUM, data_rd, 8);
+
     while (1)
     {
-        ret = i2c_master_read_slave(I2C_MASTER_NUM, data_rd, DATA_LENGTH);
+        i2c_cmd_handle_t cmd = i2c_cmd_link_create();
+        i2c_master_start(cmd);
+        i2c_master_write_byte(cmd, (HR_SENSOR_ADDR << 1) | READ_BIT, ACK_CHECK_EN);
+        i2c_master_read_byte(cmd, &data_rd, NACK_VAL);
+        i2c_master_stop(cmd);
+        esp_err_t ret = i2c_master_cmd_begin(I2C_MASTER_NUM, cmd, 50 / portTICK_RATE_MS);
+        i2c_cmd_link_delete(cmd);
+
         if (ret == ESP_ERR_TIMEOUT)
         {
-            ESP_LOGE(TAG, "I2C Timeout");
+            ESP_LOGE(TAG, "I2C Timeout, Bus is busy");
         }
         else if (ret == ESP_OK)
         {
-            disp_buf(data_rd, d_size);
+            printf("Data: %x\n", data_rd);
+            printf("Ret: %x\n", ret);
         }
         else
         {
-            ESP_LOGW(TAG, "%s: Master read slave error, IO not connected...\n",
+            ESP_LOGW(TAG, "%s: Sensor not connected...\n",
                      esp_err_to_name(ret));
         }
     }

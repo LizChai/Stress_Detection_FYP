@@ -33,7 +33,7 @@
 ## Apr 11 2021
 
 * I2C Communication
-  * Used for Heart Rate monitor
+  * Used for Heart Rate monitor: 8-bit address: 0xA0
   * Communication between master and multiple slave devices
   * Only 2 wires are used for comms
     * Use preset/unique ID
@@ -43,4 +43,7 @@
   * Messaging
     * Start, Device (Slave) Address (7-bit + R/W), Acknowledgement, Internal Register Address, A, Data, A, Stop
     * Need to know Slave Address and Internal Reg Address
-
+  * Auto-generated SDA/SCL GPIO Pins were wrong
+    * Use menuconfig to change (in i2c_self_test)
+    * CONFIG_I2C_MASTER_SCL=22
+    * CONFIG_I2C_MASTER_SDA=23
