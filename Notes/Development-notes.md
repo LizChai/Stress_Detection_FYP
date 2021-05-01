@@ -33,7 +33,7 @@
 ## Apr 11 2021
 
 * I2C Communication
-  * Used for Heart Rate monitor: 8-bit address: 0xA0
+  * Used for Heart Rate monitor: 8-bit address: 0xA0 (do not use), 7-bit address: 0x50
   * Communication between master and multiple slave devices
   * Only 2 wires are used for comms
     * Use preset/unique ID
@@ -47,3 +47,26 @@
     * Use menuconfig to change (in i2c_self_test)
     * CONFIG_I2C_MASTER_SCL=22
     * CONFIG_I2C_MASTER_SDA=23
+
+## Apr 18 2021
+
+* Grove HR Sensor
+  * Needs at least 500ms delay
+  * Got it working with ESP32 for a few tries, then an slave holds clock low after the 9th bit (after ACK bit) as it is doing something (i.e. preparing data) and never releases it
+    * If a slave cannot receive or transmit another complete byte of data until it has performed some other function, for example servicing an internal interrupt, it can hold the clock line SCL LOW to force the master into a wait state
+    * CPU is processing I2C interrupt to evaluate either the address or process data received from Master, or to prepare next data when Master is reading from the Slave
+    * The time the clock is pulled low depends on time the CPU takes to process the interrupt and hence is dependent on CPU speed and not I2C clock speed
+
+## Apr 19 2021
+
+* GSR Sensor
+  * Recorded 15mins of data
+  * Recorded stroop test data (5 mins of data)
+    * Test 1 (with text colours matching word): 14.1715 seconds
+    * Test 2 (with text colours not matching word): 16.526 seconds
+  * Recorded [PSS](https://www.bemindfulonline.com/test-your-stress) value: 24 (5 mins of data)
+    
+## Apr 22 2021
+
+* GSR Sensor
+  * Recorded Assessment Centre (for Grad role)

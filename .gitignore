@@ -354,6 +354,7 @@ hello_world/build/
 hello_world/build/**
 i2c_self_test/build/
 i2c_self_test/build/**
+i2c_tools/
 fyp_dev/Lib/
 fyp_dev/Scripts/
 fyp_dev/etc/
