@@ -16,7 +16,7 @@
 * Machine learning techniques
   * SVM
   * Decision trees
-  * K-means clustering
+  * kNN
   * Why: all three are used commonly in literature for stress detection, with high accuracy
 
 ## To do
@@ -29,4 +29,4 @@
   * Start creating and implementing ML architecture
 
 * How do the sensors actually work
-* What do the numbers mean (i.e. linking to other people's work, validation (wet fingers, stress, etc))
+* What do the numbers mean (i.e. linking to other people's work, validation (wet fingers, stress, etc)

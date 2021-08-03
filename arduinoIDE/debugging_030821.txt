@@ -1,0 +1,22 @@
+14:25:57.920 -> ets Jul 29 2019 12:21:46
+14:25:57.920 -> 
+14:25:57.920 -> rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:25:57.920 -> configsip: 0, SPIWP:0xee
+14:25:57.920 -> clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:25:57.920 -> mode:DIO, clock div:1
+14:25:57.920 -> load:0x3fff0018,len:4
+14:25:57.920 -> load:0x3fff001c,len:1044
+14:25:57.920 -> load:0x40078000,len:10124
+14:25:57.920 -> load:0x40080400,len:5856
+14:25:57.920 -> entry 0x400806a8
+14:25:58.014 -> 
+14:25:58.014 -> Heart rate sensor:
+14:25:58.014 -> 0
+14:25:59.053 -> 0
+14:26:00.035 -> 0
+14:26:01.024 -> 0
+14:26:02.109 -> Request from sensor failed =3(TIMEOUT)
+14:26:03.147 -> Request from sensor failed =3(TIMEOUT)
+14:26:04.138 -> Request from sensor failed =5(BUSY)
+14:26:05.171 -> Request from sensor failed =5(BUSY)
+14:26:06.252 -> Request from sensor failed =5(BUSY)

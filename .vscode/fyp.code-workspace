@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+        "terminal.integrated.shell.windows": "cmd.exe",
+        "terminal.integrated.shellArgs.windows": [
+            "/k",
+			"C:\\ESP-IDF\\export.bat"
+		],
+		"git.ignoreLimitWarning": true,
+		"files.associations": {
+			"esp_adc_cal.h": "c",
+			"xlocale": "c",
+			"*.ipp": "c"
+		}
+    }
+}

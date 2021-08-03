@@ -11,7 +11,7 @@
 * Machine learning techniques
   * SVM
   * Decision trees
-  * K-means clustering
+  * kNN
   * Why: all three are used commonly in literature for stress detection, with high accuracy
 
 ## To do

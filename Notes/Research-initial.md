@@ -223,6 +223,48 @@
 
 ## Research 24/03/21
 
-* [STRESS AND HEALTH: Psychological, Behavioral, and Biological Determinants
-](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2568977/)
+* [STRESS AND HEALTH: Psychological, Behavioral, and Biological Determinants](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2568977/)
   * Types of stress
+
+## Research 08/05/21
+
+* [GSR Analysis for Stress: Development and Validation of an Open Source Tool for Noisy Naturalistic GSR Data](https://arxiv.org/ftp/arxiv/papers/2005/2005.01834.pdf)
+  * GSR/EDA is one of leading indicators for stress
+  * Analyse peaks, max peak amplitude, etc
+    * SCL: Skin conductance level; tonic level of GSR signal; differs significantly across different individuals
+      * Changes slightly on time scale of tens of seconds to minutes
+      * Depends on hydration, skin dryness, autonomic regulation of an individual respondent
+      * Not useful on its own
+    * SCR: Skin conductance response; phasic component of GSR signal; rides on top of tonic change
+      * Shows much faster alterations
+      * Visible in GSR signal as peaks or bursts which may occurs 1-5 second after onset of emotional stimuli, called event-related SCRs (ER-SCR)
+      * Other responses occur 1-3 minutes spontaneously as non-specific SCR (NS-SCR)
+  * Mean of GSR data, number of peaks and max peak amplitude are most discriminative statistical features for stress detection
+  * Paper uses WESAD; DL and statistical models to get accuracy of 92% using 10-fold CV
+  * Keywords: Stress, GSR analysis, physiological signals, signal analysis, classification, machine learning
+  * Pipeline: pre-processing stage and feature extraction stage
+    * Pre-processing stage: down-sampling, moving average and normalisation
+      * Down-sampling: GSR data is usually sampled at much higher freq than needed
+        * Done to conserve memory and processing time of data without significant risk of losing important aspects of signal
+        * i.e. from 128Hz to 20Hz
+      * Moving average and normalisation: 1-second moving average filter to remove noise, smooth data and reduct artifacts such as body gestures and movements
+        * Movement can be common in uncontrolled environments
+      * Normalisation: min-max normalisation to between 0-1
+    * Feature extraction: Number of peaks, Mean of GSR, Max peak amplitude
+      * Number of peaks and max peak amplitude found by:
+      1. Extracting phasic components via cvxEDA algorithm
+          * cvxEDA algorithm
+            * Based on maximum a posteriori probability, convex optimisation and sparsity
+            * Models GSR as tonic, phasic and additive Gaussian white noise; incorporating model prediction errors, measurement errors and artifacts
+      1. Applying low pass filter (Butterworth) to remove line noise
+          * Cutoff frequency is 5Hz/sampling_rate
+      1. Identify onset and offset of stressor
+      1. Find peaks and max peak within window
+          * If difference between max peak and amplitude value at onset is higher than threshold (0.005; count as a peak
+    * Machine Learning based Classification in Tensorflow
+      * Tried 4 ML algorithms
+        1. kNN: kNN method uses k number of nearest data-points and predicts the result based on a majority vote
+        1. Naive Bayes Gaussian classifier: Naïve Bayes Gaussian classifier predicts the result based on the probabilities of each feature’s Gaussian distribution
+        1. Random Forest with depth between 1 to 10:  fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control overfitting
+        1. Support Vector Machine: find the best hyper-plan to divide the data points into different classes
+

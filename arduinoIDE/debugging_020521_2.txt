@@ -1,0 +1,220 @@
+15:22:35.767 -> rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:22:35.767 -> configsip: 0, SPIWP:0xee
+15:22:35.767 -> clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:22:35.767 -> mode:DIO, clock div:1
+15:22:35.767 -> load:0x3fff0018,len:4
+15:22:35.767 -> load:0x3fff001c,len:1044
+15:22:35.767 -> load:0x40078000,len:10124
+15:22:35.767 -> load:0x40080400,len:5856
+15:22:35.767 -> entry 0x400806a8
+15:22:35.906 -> heart rate sensor:
+15:22:35.906 -> 0
+15:22:36.375 -> 0
+15:22:36.892 -> 0
+15:22:37.361 -> 0
+15:22:37.877 -> 0
+15:22:38.393 -> 0
+15:22:38.864 -> 0
+15:22:39.382 -> 0
+15:22:39.899 -> 0
+15:22:40.372 -> 0
+15:22:40.891 -> 0
+15:22:41.363 -> 0
+15:22:41.880 -> 0
+15:22:42.397 -> 0
+15:22:42.866 -> 0
+15:22:43.384 -> 0
+15:22:43.898 -> 0
+15:22:44.368 -> 0
+15:22:44.885 -> 0
+15:22:45.405 -> 72
+15:22:45.874 -> 72
+15:22:46.390 -> 72
+15:22:46.905 -> 72
+15:22:47.372 -> 72
+15:22:47.891 -> 72
+15:22:48.503 -> [D][esp32-hal-i2c.c:1353] i2cProcQueue():  Gross Timeout Dead start=0x30f0, end=0x3122, =50, max=50 error=1
+15:22:48.503 -> [E][esp32-hal-i2c.c:318] i2cDumpI2c(): i2c=0x3ffbdbb4
+15:22:48.503 -> [I][esp32-hal-i2c.c:319] i2cDumpI2c(): dev=0x60013000 date=0x16042000
+15:22:48.503 -> [I][esp32-hal-i2c.c:321] i2cDumpI2c(): lock=0x3ffb844c
+15:22:48.503 -> [I][esp32-hal-i2c.c:323] i2cDumpI2c(): num=0
+15:22:48.503 -> [I][esp32-hal-i2c.c:324] i2cDumpI2c(): mode=1
+15:22:48.503 -> [I][esp32-hal-i2c.c:325] i2cDumpI2c(): stage=3
+15:22:48.503 -> [I][esp32-hal-i2c.c:326] i2cDumpI2c(): error=1
+15:22:48.503 -> [I][esp32-hal-i2c.c:327] i2cDumpI2c(): event=0x3ffb84d4 bits=0
+15:22:48.550 -> [I][esp32-hal-i2c.c:328] i2cDumpI2c(): intr_handle=0x3ffb8508
+15:22:48.550 -> [I][esp32-hal-i2c.c:329] i2cDumpI2c(): dq=0x3ffb84b0
+15:22:48.550 -> [I][esp32-hal-i2c.c:330] i2cDumpI2c(): queueCount=1
+15:22:48.550 -> [I][esp32-hal-i2c.c:331] i2cDumpI2c(): queuePos=0
+15:22:48.550 -> [I][esp32-hal-i2c.c:332] i2cDumpI2c(): errorByteCnt=-1
+15:22:48.550 -> [I][esp32-hal-i2c.c:333] i2cDumpI2c(): errorQueue=0
+15:22:48.550 -> [I][esp32-hal-i2c.c:334] i2cDumpI2c(): debugFlags=0x00000000
+15:22:48.550 -> [I][esp32-hal-i2c.c:311] i2cDumpDqData(): Debug Buffer not Enabled
+15:22:48.550 -> [I][esp32-hal-i2c.c:354] i2cDumpInts(): Debug Buffer not Enabled
+15:22:49.018 -> [I][esp32-hal-i2c.c:1138] i2cProcQueue(): Bus busy, reinit
+15:22:49.018 -> [W][esp32-hal-i2c.c:1419] i2cCheckLineState(): invalid state sda(23)=0, scl(22)=1
+15:22:49.018 -> [D][esp32-hal-i2c.c:1427] i2cCheckLineState(): Recovered after 1 Cycles
+15:22:49.111 -> [D][esp32-hal-i2c.c:1353] i2cProcQueue():  Gross Timeout Dead start=0x3370, end=0x33a2, =50, max=50 error=1
+15:22:49.111 -> [E][esp32-hal-i2c.c:318] i2cDumpI2c(): i2c=0x3ffbdbb4
+15:22:49.111 -> [I][esp32-hal-i2c.c:319] i2cDumpI2c(): dev=0x60013000 date=0x16042000
+15:22:49.111 -> [I][esp32-hal-i2c.c:321] i2cDumpI2c(): lock=0x3ffb844c
+15:22:49.111 -> [I][esp32-hal-i2c.c:323] i2cDumpI2c(): num=0
+15:22:49.111 -> [I][esp32-hal-i2c.c:324] i2cDumpI2c(): mode=1
+15:22:49.111 -> [I][esp32-hal-i2c.c:325] i2cDumpI2c(): stage=3
+15:22:49.111 -> [I][esp32-hal-i2c.c:326] i2cDumpI2c(): error=1
+15:22:49.111 -> [I][esp32-hal-i2c.c:327] i2cDumpI2c(): event=0x3ffb84d4 bits=0
+15:22:49.157 -> [I][esp32-hal-i2c.c:328] i2cDumpI2c(): intr_handle=0x3ffb8508
+15:22:49.157 -> [I][esp32-hal-i2c.c:329] i2cDumpI2c(): dq=0x3ffb84b0
+15:22:49.157 -> [I][esp32-hal-i2c.c:330] i2cDumpI2c(): queueCount=1
+15:22:49.157 -> [I][esp32-hal-i2c.c:331] i2cDumpI2c(): queuePos=0
+15:22:49.157 -> [I][esp32-hal-i2c.c:332] i2cDumpI2c(): errorByteCnt=-1
+15:22:49.157 -> [I][esp32-hal-i2c.c:333] i2cDumpI2c(): errorQueue=0
+15:22:49.157 -> [I][esp32-hal-i2c.c:334] i2cDumpI2c(): debugFlags=0x00000000
+15:22:49.157 -> [I][esp32-hal-i2c.c:311] i2cDumpDqData(): Debug Buffer not Enabled
+15:22:49.157 -> [I][esp32-hal-i2c.c:354] i2cDumpInts(): Debug Buffer not Enabled
+15:22:49.675 -> [I][esp32-hal-i2c.c:1138] i2cProcQueue(): Bus busy, reinit
+15:22:49.675 -> [W][esp32-hal-i2c.c:1419] i2cCheckLineState(): invalid state sda(23)=1, scl(22)=0
+15:22:49.675 -> [D][esp32-hal-i2c.c:1427] i2cCheckLineState(): Recovered after 1 Cycles
+15:22:49.675 -> [E][esp32-hal-i2c.c:1434] i2cCheckLineState(): Bus Invalid State, TwoWire() Can't init sda=1, scl=0
+15:22:50.287 -> [D][esp32-hal-i2c.c:1344] i2cProcQueue():  Busy Timeout start=0x37ec, end=0x381e, =50, max=50 error=1
+15:22:50.287 -> [E][esp32-hal-i2c.c:318] i2cDumpI2c(): i2c=0x3ffbdbb4
+15:22:50.287 -> [I][esp32-hal-i2c.c:319] i2cDumpI2c(): dev=0x60013000 date=0x16042000
+15:22:50.287 -> [I][esp32-hal-i2c.c:321] i2cDumpI2c(): lock=0x3ffb844c
+15:22:50.287 -> [I][esp32-hal-i2c.c:323] i2cDumpI2c(): num=0
+15:22:50.287 -> [I][esp32-hal-i2c.c:324] i2cDumpI2c(): mode=1
+15:22:50.287 -> [I][esp32-hal-i2c.c:325] i2cDumpI2c(): stage=3
+15:22:50.287 -> [I][esp32-hal-i2c.c:326] i2cDumpI2c(): error=1
+15:22:50.287 -> [I][esp32-hal-i2c.c:327] i2cDumpI2c(): event=0x3ffb84d4 bits=0
+15:22:50.332 -> [I][esp32-hal-i2c.c:328] i2cDumpI2c(): intr_handle=0x3ffb8508
+15:22:50.332 -> [I][esp32-hal-i2c.c:329] i2cDumpI2c(): dq=0x3ffb84b0
+15:22:50.332 -> [I][esp32-hal-i2c.c:330] i2cDumpI2c(): queueCount=1
+15:22:50.332 -> [I][esp32-hal-i2c.c:331] i2cDumpI2c(): queuePos=0
+15:22:50.332 -> [I][esp32-hal-i2c.c:332] i2cDumpI2c(): errorByteCnt=0
+15:22:50.332 -> [I][esp32-hal-i2c.c:333] i2cDumpI2c(): errorQueue=0
+15:22:50.332 -> [I][esp32-hal-i2c.c:334] i2cDumpI2c(): debugFlags=0x00000000
+15:22:50.332 -> [I][esp32-hal-i2c.c:311] i2cDumpDqData(): Debug Buffer not Enabled
+15:22:50.332 -> [I][esp32-hal-i2c.c:354] i2cDumpInts(): Debug Buffer not Enabled
+15:22:50.332 -> [W][esp32-hal-i2c.c:1419] i2cCheckLineState(): invalid state sda(23)=1, scl(22)=0
+15:22:50.332 -> [D][esp32-hal-i2c.c:1427] i2cCheckLineState(): Recovered after 1 Cycles
+15:22:50.332 -> [E][esp32-hal-i2c.c:1434] i2cCheckLineState(): Bus Invalid State, TwoWire() Can't init sda=1, scl=0
+15:22:50.944 -> [D][esp32-hal-i2c.c:1344] i2cProcQueue():  Busy Timeout start=0x3a79, end=0x3aab, =50, max=50 error=1
+15:22:50.944 -> [E][esp32-hal-i2c.c:318] i2cDumpI2c(): i2c=0x3ffbdbb4
+15:22:50.944 -> [I][esp32-hal-i2c.c:319] i2cDumpI2c(): dev=0x60013000 date=0x16042000
+15:22:50.944 -> [I][esp32-hal-i2c.c:321] i2cDumpI2c(): lock=0x3ffb844c
+15:22:50.944 -> [I][esp32-hal-i2c.c:323] i2cDumpI2c(): num=0
+15:22:50.944 -> [I][esp32-hal-i2c.c:324] i2cDumpI2c(): mode=1
+15:22:50.944 -> [I][esp32-hal-i2c.c:325] i2cDumpI2c(): stage=3
+15:22:50.944 -> [I][esp32-hal-i2c.c:326] i2cDumpI2c(): error=1
+15:22:50.944 -> [I][esp32-hal-i2c.c:327] i2cDumpI2c(): event=0x3ffb84d4 bits=0
+15:22:50.991 -> [I][esp32-hal-i2c.c:328] i2cDumpI2c(): intr_handle=0x3ffb8508
+15:22:50.991 -> [I][esp32-hal-i2c.c:329] i2cDumpI2c(): dq=0x3ffb84b0
+15:22:50.991 -> [I][esp32-hal-i2c.c:330] i2cDumpI2c(): queueCount=1
+15:22:50.991 -> [I][esp32-hal-i2c.c:331] i2cDumpI2c(): queuePos=0
+15:22:50.991 -> [I][esp32-hal-i2c.c:332] i2cDumpI2c(): errorByteCnt=0
+15:22:50.991 -> [I][esp32-hal-i2c.c:333] i2cDumpI2c(): errorQueue=0
+15:22:50.991 -> [I][esp32-hal-i2c.c:334] i2cDumpI2c(): debugFlags=0x00000000
+15:22:50.991 -> [I][esp32-hal-i2c.c:311] i2cDumpDqData(): Debug Buffer not Enabled
+15:22:50.991 -> [I][esp32-hal-i2c.c:354] i2cDumpInts(): Debug Buffer not Enabled
+15:22:50.991 -> [W][esp32-hal-i2c.c:1419] i2cCheckLineState(): invalid state sda(23)=1, scl(22)=0
+15:22:50.991 -> [D][esp32-hal-i2c.c:1427] i2cCheckLineState(): Recovered after 1 Cycles
+15:22:50.991 -> [E][esp32-hal-i2c.c:1434] i2cCheckLineState(): Bus Invalid State, TwoWire() Can't init sda=1, scl=0
+15:22:51.556 -> [D][esp32-hal-i2c.c:1344] i2cProcQueue():  Busy Timeout start=0x3d06, end=0x3d38, =50, max=50 error=1
+15:22:51.556 -> [E][esp32-hal-i2c.c:318] i2cDumpI2c(): i2c=0x3ffbdbb4
+15:22:51.556 -> [I][esp32-hal-i2c.c:319] i2cDumpI2c(): dev=0x60013000 date=0x16042000
+15:22:51.556 -> [I][esp32-hal-i2c.c:321] i2cDumpI2c(): lock=0x3ffb844c
+15:22:51.556 -> [I][esp32-hal-i2c.c:323] i2cDumpI2c(): num=0
+15:22:51.556 -> [I][esp32-hal-i2c.c:324] i2cDumpI2c(): mode=1
+15:22:51.556 -> [I][esp32-hal-i2c.c:325] i2cDumpI2c(): stage=3
+15:22:51.556 -> [I][esp32-hal-i2c.c:326] i2cDumpI2c(): error=1
+15:22:51.556 -> [I][esp32-hal-i2c.c:327] i2cDumpI2c(): event=0x3ffb84d4 bits=0
+15:22:51.602 -> [I][esp32-hal-i2c.c:328] i2cDumpI2c(): intr_handle=0x3ffb8508
+15:22:51.602 -> [I][esp32-hal-i2c.c:329] i2cDumpI2c(): dq=0x3ffb84b0
+15:22:51.602 -> [I][esp32-hal-i2c.c:330] i2cDumpI2c(): queueCount=1
+15:22:51.602 -> [I][esp32-hal-i2c.c:331] i2cDumpI2c(): queuePos=0
+15:22:51.602 -> [I][esp32-hal-i2c.c:332] i2cDumpI2c(): errorByteCnt=0
+15:22:51.602 -> [I][esp32-hal-i2c.c:333] i2cDumpI2c(): errorQueue=0
+15:22:51.602 -> [I][esp32-hal-i2c.c:334] i2cDumpI2c(): debugFlags=0x00000000
+15:22:51.602 -> [I][esp32-hal-i2c.c:311] i2cDumpDqData(): Debug Buffer not Enabled
+15:22:51.602 -> [I][esp32-hal-i2c.c:354] i2cDumpInts(): Debug Buffer not Enabled
+15:22:51.649 -> [W][esp32-hal-i2c.c:1419] i2cCheckLineState(): invalid state sda(23)=1, scl(22)=0
+15:22:51.649 -> [D][esp32-hal-i2c.c:1427] i2cCheckLineState(): Recovered after 1 Cycles
+15:22:51.649 -> [E][esp32-hal-i2c.c:1434] i2cCheckLineState(): Bus Invalid State, TwoWire() Can't init sda=1, scl=0
+15:22:52.212 -> [D][esp32-hal-i2c.c:1344] i2cProcQueue():  Busy Timeout start=0x3f93, end=0x3fc5, =50, max=50 error=1
+15:22:52.212 -> [E][esp32-hal-i2c.c:318] i2cDumpI2c(): i2c=0x3ffbdbb4
+15:22:52.212 -> [I][esp32-hal-i2c.c:319] i2cDumpI2c(): dev=0x60013000 date=0x16042000
+15:22:52.212 -> [I][esp32-hal-i2c.c:321] i2cDumpI2c(): lock=0x3ffb844c
+15:22:52.212 -> [I][esp32-hal-i2c.c:323] i2cDumpI2c(): num=0
+15:22:52.212 -> [I][esp32-hal-i2c.c:324] i2cDumpI2c(): mode=1
+15:22:52.212 -> [I][esp32-hal-i2c.c:325] i2cDumpI2c(): stage=3
+15:22:52.212 -> [I][esp32-hal-i2c.c:326] i2cDumpI2c(): error=1
+15:22:52.212 -> [I][esp32-hal-i2c.c:327] i2cDumpI2c(): event=0x3ffb84d4 bits=0
+15:22:52.260 -> [I][esp32-hal-i2c.c:328] i2cDumpI2c(): intr_handle=0x3ffb8508
+15:22:52.260 -> [I][esp32-hal-i2c.c:329] i2cDumpI2c(): dq=0x3ffb84b0
+15:22:52.260 -> [I][esp32-hal-i2c.c:330] i2cDumpI2c(): queueCount=1
+15:22:52.260 -> [I][esp32-hal-i2c.c:331] i2cDumpI2c(): queuePos=0
+15:22:52.260 -> [I][esp32-hal-i2c.c:332] i2cDumpI2c(): errorByteCnt=0
+15:22:52.260 -> [I][esp32-hal-i2c.c:333] i2cDumpI2c(): errorQueue=0
+15:22:52.260 -> [I][esp32-hal-i2c.c:334] i2cDumpI2c(): debugFlags=0x00000000
+15:22:52.260 -> [I][esp32-hal-i2c.c:311] i2cDumpDqData(): Debug Buffer not Enabled
+15:22:52.260 -> [I][esp32-hal-i2c.c:354] i2cDumpInts(): Debug Buffer not Enabled
+15:22:52.305 -> [W][esp32-hal-i2c.c:1419] i2cCheckLineState(): invalid state sda(23)=1, scl(22)=0
+15:22:52.305 -> [D][esp32-hal-i2c.c:1427] i2cCheckLineState(): Recovered after 1 Cycles
+15:22:52.305 -> [E][esp32-hal-i2c.c:1434] i2cCheckLineState(): Bus Invalid State, TwoWire() Can't init sda=1, scl=0
+15:22:52.869 -> [D][esp32-hal-i2c.c:1344] i2cProcQueue():  Busy Timeout start=0x4220, end=0x4252, =50, max=50 error=1
+15:22:52.869 -> [E][esp32-hal-i2c.c:318] i2cDumpI2c(): i2c=0x3ffbdbb4
+15:22:52.869 -> [I][esp32-hal-i2c.c:319] i2cDumpI2c(): dev=0x60013000 date=0x16042000
+15:22:52.869 -> [I][esp32-hal-i2c.c:321] i2cDumpI2c(): lock=0x3ffb844c
+15:22:52.869 -> [I][esp32-hal-i2c.c:323] i2cDumpI2c(): num=0
+15:22:52.869 -> [I][esp32-hal-i2c.c:324] i2cDumpI2c(): mode=1
+15:22:52.869 -> [I][esp32-hal-i2c.c:325] i2cDumpI2c(): stage=3
+15:22:52.869 -> [I][esp32-hal-i2c.c:326] i2cDumpI2c(): error=1
+15:22:52.869 -> [I][esp32-hal-i2c.c:327] i2cDumpI2c(): event=0x3ffb84d4 bits=0
+15:22:52.915 -> [I][esp32-hal-i2c.c:328] i2cDumpI2c(): intr_handle=0x3ffb8508
+15:22:52.915 -> [I][esp32-hal-i2c.c:329] i2cDumpI2c(): dq=0x3ffb84b0
+15:22:52.915 -> [I][esp32-hal-i2c.c:330] i2cDumpI2c(): queueCount=1
+15:22:52.915 -> [I][esp32-hal-i2c.c:331] i2cDumpI2c(): queuePos=0
+15:22:52.915 -> [I][esp32-hal-i2c.c:332] i2cDumpI2c(): errorByteCnt=0
+15:22:52.915 -> [I][esp32-hal-i2c.c:333] i2cDumpI2c(): errorQueue=0
+15:22:52.915 -> [I][esp32-hal-i2c.c:334] i2cDumpI2c(): debugFlags=0x00000000
+15:22:52.915 -> [I][esp32-hal-i2c.c:311] i2cDumpDqData(): Debug Buffer not Enabled
+15:22:52.915 -> [I][esp32-hal-i2c.c:354] i2cDumpInts(): Debug Buffer not Enabled
+15:22:52.962 -> [W][esp32-hal-i2c.c:1419] i2cCheckLineState(): invalid state sda(23)=1, scl(22)=0
+15:22:52.962 -> [D][esp32-hal-i2c.c:1427] i2cCheckLineState(): Recovered after 1 Cycles
+15:22:52.962 -> [E][esp32-hal-i2c.c:1434] i2cCheckLineState(): Bus Invalid State, TwoWire() Can't init sda=1, scl=0
+15:22:53.523 -> [D][esp32-hal-i2c.c:1344] i2cProcQueue():  Busy Timeout start=0x44ad, end=0x44df, =50, max=50 error=1
+15:22:53.523 -> [E][esp32-hal-i2c.c:318] i2cDumpI2c(): i2c=0x3ffbdbb4
+15:22:53.523 -> [I][esp32-hal-i2c.c:319] i2cDumpI2c(): dev=0x60013000 date=0x16042000
+15:22:53.523 -> [I][esp32-hal-i2c.c:321] i2cDumpI2c(): lock=0x3ffb844c
+15:22:53.523 -> [I][esp32-hal-i2c.c:323] i2cDumpI2c(): num=0
+15:22:53.523 -> [I][esp32-hal-i2c.c:324] i2cDumpI2c(): mode=1
+15:22:53.523 -> [I][esp32-hal-i2c.c:325] i2cDumpI2c(): stage=3
+15:22:53.523 -> [I][esp32-hal-i2c.c:326] i2cDumpI2c(): error=1
+15:22:53.523 -> [I][esp32-hal-i2c.c:327] i2cDumpI2c(): event=0x3ffb84d4 bits=0
+15:22:53.570 -> [I][esp32-hal-i2c.c:328] i2cDumpI2c(): intr_handle=0x3ffb8508
+15:22:53.570 -> [I][esp32-hal-i2c.c:329] i2cDumpI2c(): dq=0x3ffb84b0
+15:22:53.570 -> [I][esp32-hal-i2c.c:330] i2cDumpI2c(): queueCount=1
+15:22:53.570 -> [I][esp32-hal-i2c.c:331] i2cDumpI2c(): queuePos=0
+15:22:53.570 -> [I][esp32-hal-i2c.c:332] i2cDumpI2c(): errorByteCnt=0
+15:22:53.570 -> [I][esp32-hal-i2c.c:333] i2cDumpI2c(): errorQueue=0
+15:22:53.570 -> [I][esp32-hal-i2c.c:334] i2cDumpI2c(): debugFlags=0x00000000
+15:22:53.570 -> [I][esp32-hal-i2c.c:311] i2cDumpDqData(): Debug Buffer not Enabled
+15:22:53.570 -> [I][esp32-hal-i2c.c:354] i2cDumpInts(): Debug Buffer not Enabled
+15:22:53.664 -> [D][esp32-hal-i2c.c:1353] i2cProcQueue():  Gross Timeout Dead start=0x4530, end=0x4562, =50, max=50 error=1
+15:22:53.664 -> [E][esp32-hal-i2c.c:318] i2cDumpI2c(): i2c=0x3ffbdbb4
+15:22:53.664 -> [I][esp32-hal-i2c.c:319] i2cDumpI2c(): dev=0x60013000 date=0x16042000
+15:22:53.664 -> [I][esp32-hal-i2c.c:321] i2cDumpI2c(): lock=0x3ffb844c
+15:22:53.664 -> [I][esp32-hal-i2c.c:323] i2cDumpI2c(): num=0
+15:22:53.664 -> [I][esp32-hal-i2c.c:324] i2cDumpI2c(): mode=1
+15:22:53.664 -> [I][esp32-hal-i2c.c:325] i2cDumpI2c(): stage=3
+15:22:53.664 -> [I][esp32-hal-i2c.c:326] i2cDumpI2c(): error=1
+15:22:53.664 -> [I][esp32-hal-i2c.c:327] i2cDumpI2c(): event=0x3ffb84d4 bits=0
+15:22:53.711 -> [I][esp32-hal-i2c.c:328] i2cDumpI2c(): intr_handle=0x3ffb8508
+15:22:53.711 -> [I][esp32-hal-i2c.c:329] i2cDumpI2c(): dq=0x3ffb84b0
+15:22:53.711 -> [I][esp32-hal-i2c.c:330] i2cDumpI2c(): queueCount=1
+15:22:53.711 -> [I][esp32-hal-i2c.c:331] i2cDumpI2c(): queuePos=0
+15:22:53.711 -> [I][esp32-hal-i2c.c:332] i2cDumpI2c(): errorByteCnt=-1
+15:22:53.711 -> [I][esp32-hal-i2c.c:333] i2cDumpI2c(): errorQueue=0
+15:22:53.711 -> [I][esp32-hal-i2c.c:334] i2cDumpI2c(): debugFlags=0x00000000
+15:22:53.711 -> [I][esp32-hal-i2c.c:311] i2cDumpDqData(): Debug Buffer not Enabled
+15:22:53.711 -> [I][esp32-hal-i2c.c:354] i2cDumpInts(): Debug Buffer not Enabled
+15:22:54.227 -> [I][esp32-hal-i2c.c:1138] i2cProcQueue(): Bus busy, reinit

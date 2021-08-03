@@ -1,4 +1,5 @@
 # Apr 26 2021 - Week 8 Meeting
+
 ## Progress Update
 
 * Got I2C kind of working on ESP32
@@ -21,8 +22,7 @@
   * Plot data from GSR (in real-time)?
   * Start creating and implementing ML architecture
 
-* **** MUST DO ****
-* How do the sensors actually work
+* --- MUST DO ---
 * What do the numbers mean (i.e. linking to other people's work, validation (wet fingers, stress, etc))
   * Do a control + happy + stress test to record data
   * Then apply to everyday recorded data

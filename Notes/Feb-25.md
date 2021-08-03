@@ -70,7 +70,7 @@
 1. Know your Purpose
     * read to: gain an overview, find specific info, understand difficult concepts, revise for exams, complete assignment
 1. Be selective of what you read and focus on the question or task
-    * identifiy key words, or phrases, questions to be answered
+    * identify key words, or phrases, questions to be answered
 1. Break reading into segments
 1. Keeping track of what you have read
     * Keep details of: author, title, place of publication, date and page numbers
