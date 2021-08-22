@@ -4,7 +4,8 @@ int sensorValue=0;
 int gsr_average=0;
 
 void setup(){
-  Serial.begin(9600);
+  Serial.begin(115200);
+  analogSetWidth(10);
 }
 
 void loop(){
