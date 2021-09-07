@@ -3,8 +3,8 @@ bool wifi_status = true;
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "";
-const char* password = "";
+const char* ssid = "TP-LINK_9E63";
+const char* password = "97475811";
 const char* id = "ESP32Client";
 const char* topic = "data_reading";
 
@@ -32,6 +32,9 @@ byte gsrSpot = 0;
 int gsrAvg;
 
 int ticks = 0;
+
+// Define battery management
+#define VBATPIN 35
 
 // Connect to WiFi function
 void setup_wifi() {
@@ -150,14 +153,18 @@ void loop(){
       }
       client.loop();
   }
+
+  // Battery readings
+  float vbat = analogRead(VBATPIN);
+  vbat = vbat*2*3.3*1.1/1024*100;     // value is divided by 2, then scale to voltage (3.3V*1.1/1024), and multiply by 100 to keep precision
   
   // Print readings
   if (ticks%50==0){ // 50 ticks = 1s
-    String results = String("BPM=" + String(hrBeatAvg) + ", GSR=" + String(gsrAvg));
+    String results = String("BPM=" + String(hrBeatAvg) + ", GSR=" + String(gsrAvg) + ", BATT=" + String(vbat));
     Serial.println(results);
     
-    //Serial.print("BPM=");
-    //Serial.print(hrBeatsPerMinute);
+//    Serial.print("BPM=");
+//    Serial.print(hrBeatsPerMinute);
 //    Serial.print("BPM=");
 //    Serial.print(hrBeatAvg);
 //    Serial.print(", GSR=");

@@ -1,4 +1,4 @@
-# Aug 16 2021 - Week 4 Weekly Meeting
+# Aug 19 2021 - Week 4 Development Notes
 
 ## Development Notes
 

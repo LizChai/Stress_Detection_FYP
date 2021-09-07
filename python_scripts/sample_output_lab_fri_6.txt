@@ -1,0 +1,1780 @@
+// Values are: Battery Voltage | HR | GSR | Predicted Stress Value | Stress
+
+Recording Started
+Subscribed to topic data_reading
+3.72 73 478 4 Not Stressed
+3.71 73 477 4 Not Stressed
+3.72 77 477 4 Not Stressed
+3.71 82 477 4 Not Stressed
+3.71 79 477 4 Not Stressed
+3.71 73 477 4 Not Stressed
+3.71 73 477 4 Not Stressed
+3.71 72 477 4 Not Stressed
+3.71 72 477 4 Not Stressed
+3.71 72 477 4 Not Stressed
+3.71 79 477 4 Not Stressed
+3.71 80 477 4 Not Stressed
+3.71 81 477 4 Not Stressed
+3.71 82 477 4 Not Stressed
+3.71 79 477 4 Not Stressed
+3.7 78 477 4 Not Stressed
+3.71 81 477 4 Not Stressed
+3.71 76 477 4 Not Stressed
+3.71 77 477 4 Not Stressed
+3.71 75 476 4 Not Stressed
+3.71 75 477 4 Not Stressed
+3.71 75 478 4 Not Stressed
+3.71 75 477 4 Not Stressed
+3.72 75 477 4 Not Stressed
+3.65 75 459 4 Not Stressed
+3.64 75 443 4 Not Stressed
+3.6 75 442 4 Not Stressed
+3.64 75 442 4 Not Stressed
+3.65 75 441 4 Not Stressed
+3.64 75 442 4 Not Stressed
+3.64 75 442 4 Not Stressed
+3.64 75 441 4 Not Stressed
+3.64 75 440 4 Not Stressed
+3.64 75 441 4 Not Stressed
+3.64 75 442 4 Not Stressed
+3.64 75 443 4 Not Stressed
+3.63 75 441 4 Not Stressed
+3.64 75 441 4 Not Stressed
+3.64 75 441 4 Not Stressed
+3.64 75 439 4 Not Stressed
+3.64 75 441 4 Not Stressed
+3.63 75 441 4 Not Stressed
+3.6 75 441 4 Not Stressed
+3.63 75 440 4 Not Stressed
+3.62 75 440 4 Not Stressed
+3.63 75 440 4 Not Stressed
+3.63 75 440 4 Not Stressed
+3.6 75 439 4 Not Stressed
+3.62 75 440 4 Not Stressed
+3.63 79 440 4 Not Stressed
+3.63 79 439 4 Not Stressed
+3.63 79 439 4 Not Stressed
+3.63 79 439 4 Not Stressed
+3.59 79 439 4 Not Stressed
+3.63 79 439 4 Not Stressed
+3.63 79 439 4 Not Stressed
+3.62 80 439 4 Not Stressed
+3.63 80 438 4 Not Stressed
+3.63 84 438 4 Not Stressed
+3.62 82 439 4 Not Stressed
+3.63 84 441 4 Not Stressed
+3.62 84 441 4 Not Stressed
+3.62 84 440 4 Not Stressed
+3.62 84 440 4 Not Stressed
+3.63 79 440 4 Not Stressed
+3.62 74 442 4 Not Stressed
+3.63 74 441 4 Not Stressed
+3.62 74 440 4 Not Stressed
+3.63 74 441 4 Not Stressed
+3.62 74 442 4 Not Stressed
+3.63 74 442 4 Not Stressed
+3.63 74 442 4 Not Stressed
+3.62 74 442 4 Not Stressed
+3.62 74 443 4 Not Stressed
+3.62 73 443 4 Not Stressed
+3.62 95 442 4 Not Stressed
+3.62 95 441 4 Not Stressed
+3.63 95 440 4 Not Stressed
+3.63 95 442 4 Not Stressed
+3.62 95 442 4 Not Stressed
+3.59 95 441 4 Not Stressed
+3.63 95 441 4 Not Stressed
+3.62 95 441 4 Not Stressed
+3.62 95 439 4 Not Stressed
+3.62 95 439 4 Not Stressed
+3.63 95 438 4 Not Stressed
+3.63 95 439 5 Stressed
+3.62 95 439 5 Stressed
+3.63 95 438 5 Stressed
+3.62 95 438 5 Stressed
+3.62 95 438 5 Stressed
+3.58 95 438 5 Stressed
+3.62 95 438 5 Stressed
+3.62 93 438 5 Stressed
+3.62 98 436 5 Stressed
+3.62 99 437 5 Stressed
+3.63 105 437 5 Stressed
+3.62 101 436 5 Stressed
+3.62 82 438 5 Stressed
+3.62 82 438 5 Stressed
+3.62 82 438 5 Stressed
+3.62 82 438 5 Stressed
+3.61 83 439 5 Stressed
+3.62 83 440 5 Stressed
+3.62 83 440 4 Not Stressed
+3.61 83 440 4 Not Stressed
+3.62 83 440 4 Not Stressed
+3.59 81 439 4 Not Stressed
+3.62 81 445 5 Stressed
+3.62 81 445 5 Stressed
+3.62 81 441 5 Stressed
+3.62 81 441 5 Stressed
+3.62 81 440 5 Stressed
+3.62 88 446 5 Stressed
+3.62 80 445 5 Stressed
+3.62 80 443 5 Stressed
+3.62 80 441 5 Stressed
+3.62 80 442 5 Stressed
+3.62 76 442 5 Stressed
+3.62 73 442 5 Stressed
+3.62 93 441 5 Stressed
+3.62 93 440 5 Stressed
+3.62 93 441 5 Stressed
+3.62 93 442 5 Stressed
+3.62 93 442 5 Stressed
+3.61 93 440 5 Stressed
+3.62 93 441 5 Stressed
+3.62 91 442 5 Stressed
+3.62 91 442 5 Stressed
+3.62 91 443 5 Stressed
+3.62 91 443 5 Stressed
+3.62 91 442 5 Stressed
+3.61 91 441 5 Stressed
+3.62 91 441 5 Stressed
+3.62 91 442 5 Stressed
+3.62 91 442 5 Stressed
+3.61 91 441 5 Stressed
+3.62 91 443 5 Stressed
+3.62 97 441 5 Stressed
+3.61 97 442 5 Stressed
+3.61 108 446 5 Stressed
+3.61 109 442 5 Stressed
+3.61 109 444 5 Stressed
+3.61 109 443 5 Stressed
+3.62 109 443 5 Stressed
+3.58 109 443 5 Stressed
+3.61 109 444 7 Stressed
+3.61 109 444 7 Stressed
+3.61 109 444 7 Stressed
+3.61 109 440 7 Stressed
+3.62 109 443 7 Stressed
+3.61 109 443 7 Stressed
+3.62 109 442 7 Stressed
+3.62 109 441 7 Stressed
+3.59 109 441 7 Stressed
+3.61 109 442 7 Stressed
+3.58 109 442 7 Stressed
+3.61 109 442 7 Stressed
+3.61 114 441 7 Stressed
+3.62 114 440 7 Stressed
+3.62 114 442 7 Stressed
+3.61 114 442 7 Stressed
+3.62 100 441 7 Stressed
+3.62 92 441 7 Stressed
+3.61 89 441 7 Stressed
+3.61 86 441 7 Stressed
+3.61 78 441 7 Stressed
+3.61 82 441 7 Stressed
+3.62 76 441 7 Stressed
+3.61 79 438 7 Stressed
+3.61 77 441 7 Stressed
+3.61 77 440 7 Stressed
+3.61 77 440 7 Stressed
+3.61 81 441 7 Stressed
+3.6 81 440 7 Stressed
+3.61 81 439 7 Stressed
+3.62 81 441 5 Stressed
+3.61 81 440 5 Stressed
+3.61 77 441 5 Stressed
+3.61 75 440 5 Stressed
+3.61 75 441 5 Stressed
+3.62 75 439 5 Stressed
+3.62 75 441 5 Stressed
+3.58 72 450 5 Stressed
+3.61 72 440 5 Stressed
+3.62 72 443 4 Not Stressed
+3.61 72 442 4 Not Stressed
+3.61 67 443 4 Not Stressed
+3.61 70 442 4 Not Stressed
+3.61 69 442 4 Not Stressed
+3.61 69 440 5 Stressed
+3.61 69 442 4 Not Stressed
+3.62 74 442 5 Stressed
+3.61 74 442 5 Stressed
+3.61 74 441 5 Stressed
+3.62 74 436 4 Not Stressed
+3.62 74 428 4 Not Stressed
+3.62 74 444 4 Not Stressed
+3.62 74 443 4 Not Stressed
+3.6 74 443 4 Not Stressed
+3.61 74 443 4 Not Stressed
+3.61 76 449 4 Not Stressed
+3.62 86 449 4 Not Stressed
+3.61 86 448 4 Not Stressed
+3.61 86 447 4 Not Stressed
+3.61 86 445 5 Stressed
+3.58 86 443 5 Stressed
+3.6 86 444 5 Stressed
+3.62 86 445 5 Stressed
+3.61 86 443 5 Stressed
+3.61 86 443 5 Stressed
+3.61 104 443 6 Stressed
+3.61 113 445 4 Not Stressed
+3.62 113 440 5 Stressed
+3.61 113 443 5 Stressed
+3.61 113 443 5 Stressed
+3.61 113 443 4 Not Stressed
+3.61 113 443 4 Not Stressed
+3.61 117 443 4 Not Stressed
+3.61 117 443 4 Not Stressed
+3.61 117 443 4 Not Stressed
+3.58 117 443 5 Stressed
+3.61 117 442 5 Stressed
+3.61 117 443 5 Stressed
+3.62 117 442 5 Stressed
+3.61 117 442 5 Stressed
+3.61 118 443 5 Stressed
+3.61 118 444 5 Stressed
+3.61 118 443 5 Stressed
+3.61 126 443 7 Stressed
+3.61 113 443 7 Stressed
+3.61 113 443 7 Stressed
+3.62 113 443 7 Stressed
+3.58 107 442 7 Stressed
+3.61 107 442 7 Stressed
+3.61 107 443 7 Stressed
+3.61 95 443 7 Stressed
+3.6 84 442 7 Stressed
+3.61 84 442 7 Stressed
+3.58 84 441 7 Stressed
+3.61 84 444 7 Stressed
+3.61 84 444 7 Stressed
+3.58 84 442 7 Stressed
+3.61 84 443 7 Stressed
+3.58 77 443 7 Stressed
+3.61 76 443 7 Stressed
+3.61 69 442 7 Stressed
+3.6 69 441 5 Stressed
+3.61 69 442 5 Stressed
+3.6 65 441 5 Stressed
+3.61 67 444 5 Stressed
+3.61 75 449 5 Stressed
+3.61 74 447 5 Stressed
+3.61 74 443 6 Stressed
+3.6 74 443 6 Stressed
+3.61 74 443 6 Stressed
+3.61 73 442 4 Not Stressed
+3.61 75 442 4 Not Stressed
+3.6 75 442 4 Not Stressed
+3.61 75 442 4 Not Stressed
+3.58 78 442 4 Not Stressed
+3.58 78 441 5 Stressed
+3.6 78 441 5 Stressed
+3.61 78 441 5 Stressed
+3.61 74 444 4 Not Stressed
+3.58 71 448 6 Stressed
+3.61 71 446 5 Stressed
+3.6 71 446 5 Stressed
+3.6 71 443 5 Stressed
+3.61 71 443 5 Stressed
+3.6 71 443 4 Not Stressed
+3.58 71 442 4 Not Stressed
+3.61 71 442 4 Not Stressed
+3.61 71 443 3 Not Stressed
+3.6 73 443 2 Not Stressed
+3.61 77 443 2 Not Stressed
+3.61 75 442 2 Not Stressed
+3.61 73 442 2 Not Stressed
+3.61 73 441 2 Not Stressed
+3.61 73 441 4 Not Stressed
+3.61 77 443 4 Not Stressed
+3.6 77 441 4 Not Stressed
+3.61 77 440 4 Not Stressed
+3.61 77 443 4 Not Stressed
+3.6 78 443 4 Not Stressed
+3.61 78 442 4 Not Stressed
+3.61 73 442 4 Not Stressed
+3.61 68 441 4 Not Stressed
+3.6 68 442 4 Not Stressed
+3.6 68 441 4 Not Stressed
+3.6 68 442 4 Not Stressed
+3.61 68 441 2 Not Stressed
+3.61 68 440 2 Not Stressed
+3.61 68 443 4 Not Stressed
+3.61 68 442 4 Not Stressed
+3.6 72 442 4 Not Stressed
+3.61 84 442 3 Not Stressed
+3.58 76 441 3 Not Stressed
+3.61 76 443 2 Not Stressed
+3.58 76 442 2 Not Stressed
+3.61 79 443 2 Not Stressed
+3.6 79 440 4 Not Stressed
+3.61 79 441 4 Not Stressed
+3.6 79 441 4 Not Stressed
+3.6 79 442 4 Not Stressed
+3.6 79 442 4 Not Stressed
+3.6 79 442 4 Not Stressed
+3.61 79 439 4 Not Stressed
+3.61 79 442 4 Not Stressed
+3.6 79 442 4 Not Stressed
+3.58 79 443 5 Stressed
+3.61 79 443 5 Stressed
+3.61 79 442 5 Stressed
+3.6 79 441 5 Stressed
+3.6 79 442 5 Stressed
+3.6 79 441 5 Stressed
+3.61 79 442 5 Stressed
+3.6 77 443 5 Stressed
+3.61 77 444 5 Stressed
+3.6 77 444 5 Stressed
+3.6 77 446 5 Stressed
+3.6 77 444 2 Not Stressed
+3.61 77 444 4 Not Stressed
+3.6 77 442 4 Not Stressed
+3.6 77 443 4 Not Stressed
+3.6 77 443 4 Not Stressed
+3.61 77 443 4 Not Stressed
+3.6 77 442 4 Not Stressed
+3.61 77 441 4 Not Stressed
+3.6 77 441 4 Not Stressed
+3.6 74 443 4 Not Stressed
+3.6 74 442 4 Not Stressed
+3.6 74 443 4 Not Stressed
+3.61 56 441 2 Not Stressed
+3.6 56 442 5 Stressed
+3.61 56 441 6 Stressed
+3.61 56 443 4 Not Stressed
+3.58 56 444 4 Not Stressed
+3.6 56 443 3 Not Stressed
+3.6 58 443 3 Not Stressed
+3.6 58 441 3 Not Stressed
+3.6 58 441 3 Not Stressed
+3.61 58 443 3 Not Stressed
+3.6 58 442 3 Not Stressed
+3.6 58 440 3 Not Stressed
+3.61 58 442 3 Not Stressed
+3.6 58 442 3 Not Stressed
+3.6 58 441 3 Not Stressed
+3.58 58 440 3 Not Stressed
+3.61 58 441 3 Not Stressed
+3.6 58 440 3 Not Stressed
+3.6 58 441 3 Not Stressed
+3.6 64 441 3 Not Stressed
+3.61 64 441 3 Not Stressed
+3.6 64 440 3 Not Stressed
+3.61 64 442 3 Not Stressed
+3.61 64 441 3 Not Stressed
+3.6 66 440 3 Not Stressed
+3.61 67 442 3 Not Stressed
+3.6 67 441 3 Not Stressed
+3.6 67 439 3 Not Stressed
+3.61 72 440 3 Not Stressed
+3.6 80 441 3 Not Stressed
+3.6 84 440 3 Not Stressed
+3.58 90 438 3 Not Stressed
+3.6 93 440 3 Not Stressed
+3.6 90 440 3 Not Stressed
+3.6 81 440 3 Not Stressed
+3.6 82 440 3 Not Stressed
+3.6 78 439 3 Not Stressed
+3.6 76 439 3 Not Stressed
+3.6 74 439 3 Not Stressed
+3.6 74 439 3 Not Stressed
+3.6 74 439 3 Not Stressed
+3.6 71 439 3 Not Stressed
+3.6 77 438 3 Not Stressed
+3.57 76 439 3 Not Stressed
+3.61 72 440 3 Not Stressed
+3.6 72 439 3 Not Stressed
+3.6 72 438 3 Not Stressed
+3.61 72 441 3 Not Stressed
+3.61 72 440 2 Not Stressed
+3.6 72 440 6 Stressed
+3.6 72 440 6 Stressed
+3.6 72 440 6 Stressed
+3.6 72 440 6 Stressed
+3.61 76 440 6 Stressed
+3.6 76 439 6 Stressed
+3.61 76 440 5 Stressed
+3.61 78 440 5 Stressed
+3.61 76 438 5 Stressed
+3.6 74 439 5 Stressed
+3.58 70 439 5 Stressed
+3.6 71 439 5 Stressed
+3.6 71 440 5 Stressed
+3.6 71 439 4 Not Stressed
+3.6 71 441 4 Not Stressed
+3.6 71 440 4 Not Stressed
+3.61 71 441 4 Not Stressed
+3.6 71 440 4 Not Stressed
+3.58 71 439 4 Not Stressed
+3.6 71 440 4 Not Stressed
+3.6 75 440 4 Not Stressed
+3.58 74 440 4 Not Stressed
+3.6 71 440 4 Not Stressed
+3.61 76 440 4 Not Stressed
+3.6 76 440 4 Not Stressed
+3.61 76 441 4 Not Stressed
+3.61 76 442 4 Not Stressed
+3.6 84 440 4 Not Stressed
+3.61 90 442 4 Not Stressed
+3.6 85 443 4 Not Stressed
+3.6 85 443 4 Not Stressed
+3.6 85 443 5 Stressed
+3.61 85 443 5 Stressed
+3.6 85 439 5 Stressed
+3.6 85 443 5 Stressed
+3.6 91 443 5 Stressed
+3.61 91 444 5 Stressed
+3.58 91 441 4 Not Stressed
+3.61 91 442 4 Not Stressed
+3.6 91 443 4 Not Stressed
+3.6 94 445 4 Not Stressed
+3.6 95 447 3 Not Stressed
+3.61 90 443 3 Not Stressed
+3.61 90 444 4 Not Stressed
+3.6 93 444 4 Not Stressed
+3.58 97 443 5 Stressed
+3.6 92 445 4 Not Stressed
+3.6 92 444 5 Stressed
+3.58 92 443 5 Stressed
+3.6 89 443 5 Stressed
+3.6 110 444 5 Stressed
+3.6 110 444 5 Stressed
+3.6 110 444 5 Stressed
+3.61 110 443 5 Stressed
+3.6 110 443 5 Stressed
+3.6 110 445 5 Stressed
+3.6 110 445 4 Not Stressed
+3.6 110 444 7 Stressed
+3.6 110 443 7 Stressed
+3.6 110 443 7 Stressed
+3.6 110 443 7 Stressed
+3.6 110 443 7 Stressed
+3.6 110 443 7 Stressed
+3.6 110 443 7 Stressed
+3.58 105 443 7 Stressed
+3.6 105 443 7 Stressed
+3.6 105 440 7 Stressed
+3.6 105 443 7 Stressed
+3.6 107 443 7 Stressed
+3.6 106 443 7 Stressed
+3.6 102 443 7 Stressed
+3.6 102 442 7 Stressed
+3.6 102 442 7 Stressed
+3.6 102 442 7 Stressed
+3.6 102 443 7 Stressed
+3.61 102 443 7 Stressed
+3.58 102 443 7 Stressed
+3.6 84 443 7 Stressed
+3.6 84 443 7 Stressed
+3.61 84 444 7 Stressed
+3.6 84 444 7 Stressed
+3.61 84 443 7 Stressed
+3.6 84 443 7 Stressed
+3.6 84 443 7 Stressed
+3.6 84 442 7 Stressed
+3.6 84 442 7 Stressed
+3.6 84 442 7 Stressed
+3.6 84 442 7 Stressed
+3.6 84 442 7 Stressed
+3.6 76 444 7 Stressed
+3.58 76 441 7 Stressed
+3.6 76 444 5 Stressed
+3.58 76 443 5 Stressed
+3.6 76 444 5 Stressed
+3.6 80 442 5 Stressed
+3.6 80 449 5 Stressed
+3.6 80 444 5 Stressed
+3.61 80 444 5 Stressed
+3.6 80 445 5 Stressed
+3.6 80 445 5 Stressed
+3.6 80 443 5 Stressed
+3.6 80 443 5 Stressed
+3.6 80 443 5 Stressed
+3.6 80 444 5 Stressed
+3.6 80 443 4 Not Stressed
+3.6 80 443 5 Stressed
+3.61 80 443 4 Not Stressed
+3.6 87 444 4 Not Stressed
+3.58 87 443 4 Not Stressed
+3.6 87 443 4 Not Stressed
+3.61 87 443 3 Not Stressed
+3.6 87 443 3 Not Stressed
+3.6 87 443 3 Not Stressed
+3.6 85 443 3 Not Stressed
+3.6 86 443 3 Not Stressed
+3.6 86 442 3 Not Stressed
+3.6 88 442 3 Not Stressed
+3.61 88 442 3 Not Stressed
+3.61 88 442 3 Not Stressed
+3.6 85 443 3 Not Stressed
+3.6 76 444 3 Not Stressed
+3.6 76 444 3 Not Stressed
+3.6 76 442 3 Not Stressed
+3.6 76 443 3 Not Stressed
+3.6 76 444 3 Not Stressed
+3.6 76 444 3 Not Stressed
+3.6 76 442 3 Not Stressed
+3.6 68 442 4 Not Stressed
+3.6 68 442 4 Not Stressed
+3.6 68 442 4 Not Stressed
+3.6 70 443 4 Not Stressed
+3.6 70 442 4 Not Stressed
+3.6 70 443 4 Not Stressed
+3.6 70 443 4 Not Stressed
+3.6 70 443 4 Not Stressed
+3.58 76 441 4 Not Stressed
+3.6 74 443 4 Not Stressed
+3.6 75 443 4 Not Stressed
+3.6 75 443 4 Not Stressed
+3.6 75 443 4 Not Stressed
+3.6 75 441 4 Not Stressed
+3.6 75 442 5 Stressed
+3.6 75 442 5 Stressed
+3.6 75 442 5 Stressed
+3.6 74 441 5 Stressed
+3.6 78 442 5 Stressed
+3.6 79 442 5 Stressed
+3.6 79 442 4 Not Stressed
+3.6 79 442 4 Not Stressed
+3.6 75 442 4 Not Stressed
+3.6 79 442 4 Not Stressed
+3.58 76 442 4 Not Stressed
+3.6 80 441 4 Not Stressed
+3.6 81 442 4 Not Stressed
+3.6 80 441 4 Not Stressed
+3.6 78 438 4 Not Stressed
+3.6 79 441 4 Not Stressed
+3.6 75 441 4 Not Stressed
+3.6 77 441 4 Not Stressed
+3.6 72 440 4 Not Stressed
+3.6 68 443 4 Not Stressed
+3.6 65 442 4 Not Stressed
+3.58 65 442 4 Not Stressed
+3.6 65 442 4 Not Stressed
+3.6 63 442 4 Not Stressed
+3.6 62 442 6 Stressed
+3.6 63 441 6 Stressed
+3.6 64 441 2 Not Stressed
+3.6 64 441 2 Not Stressed
+3.6 64 441 2 Not Stressed
+3.6 64 442 2 Not Stressed
+3.6 64 441 2 Not Stressed
+3.6 64 429 2 Not Stressed
+3.6 64 440 2 Not Stressed
+3.6 64 439 2 Not Stressed
+3.6 64 440 2 Not Stressed
+3.6 64 439 3 Not Stressed
+3.6 64 439 3 Not Stressed
+3.58 64 439 3 Not Stressed
+3.6 64 438 3 Not Stressed
+3.6 64 439 3 Not Stressed
+3.6 77 438 3 Not Stressed
+3.6 77 438 3 Not Stressed
+3.6 76 439 3 Not Stressed
+3.6 76 437 3 Not Stressed
+3.6 83 438 3 Not Stressed
+3.6 87 436 3 Not Stressed
+3.6 88 438 3 Not Stressed
+3.6 82 438 3 Not Stressed
+3.57 81 437 3 Not Stressed
+3.6 88 438 3 Not Stressed
+3.6 84 437 3 Not Stressed
+3.6 84 437 3 Not Stressed
+3.6 84 438 3 Not Stressed
+3.6 84 438 3 Not Stressed
+3.6 84 438 3 Not Stressed
+3.6 81 437 3 Not Stressed
+3.6 81 437 3 Not Stressed
+3.6 81 440 3 Not Stressed
+3.6 78 441 3 Not Stressed
+3.6 78 440 4 Not Stressed
+3.6 78 441 6 Stressed
+3.57 78 440 6 Stressed
+3.6 89 440 4 Not Stressed
+3.6 89 437 7 Stressed
+3.58 85 438 7 Stressed
+3.6 85 439 4 Not Stressed
+3.6 82 440 4 Not Stressed
+3.6 82 441 4 Not Stressed
+3.6 82 439 4 Not Stressed
+3.6 82 442 4 Not Stressed
+3.6 82 443 3 Not Stressed
+3.6 82 442 3 Not Stressed
+3.6 82 442 3 Not Stressed
+3.6 82 440 3 Not Stressed
+3.6 97 440 3 Not Stressed
+3.6 97 440 5 Stressed
+3.57 97 440 5 Stressed
+3.6 97 440 5 Stressed
+3.6 97 440 5 Stressed
+3.6 95 440 5 Stressed
+3.6 95 440 5 Stressed
+3.6 91 440 5 Stressed
+3.6 95 439 5 Stressed
+3.6 83 439 5 Stressed
+3.6 83 440 5 Stressed
+3.6 83 440 5 Stressed
+3.58 83 442 5 Stressed
+3.6 83 442 5 Stressed
+3.6 83 441 5 Stressed
+3.6 83 440 5 Stressed
+3.6 83 438 5 Stressed
+3.6 83 439 5 Stressed
+3.6 83 439 5 Stressed
+3.6 73 442 5 Stressed
+3.6 73 442 5 Stressed
+3.6 73 439 5 Stressed
+3.6 73 439 5 Stressed
+3.6 73 439 5 Stressed
+3.6 73 441 5 Stressed
+3.6 73 442 5 Stressed
+3.6 73 438 4 Not Stressed
+3.58 73 437 4 Not Stressed
+3.6 73 438 4 Not Stressed
+3.6 73 439 4 Not Stressed
+3.6 73 439 4 Not Stressed
+3.6 73 438 4 Not Stressed
+3.6 73 438 4 Not Stressed
+3.6 73 438 3 Not Stressed
+3.58 82 438 4 Not Stressed
+3.6 69 437 4 Not Stressed
+3.6 69 437 4 Not Stressed
+3.6 69 439 5 Stressed
+3.6 69 440 5 Stressed
+3.6 69 440 5 Stressed
+3.6 69 442 5 Stressed
+3.6 69 441 4 Not Stressed
+3.6 69 441 4 Not Stressed
+3.6 68 440 4 Not Stressed
+3.6 68 440 4 Not Stressed
+3.58 68 440 2 Not Stressed
+3.6 74 440 2 Not Stressed
+3.6 79 438 2 Not Stressed
+3.6 83 440 2 Not Stressed
+3.6 77 440 2 Not Stressed
+3.6 77 440 2 Not Stressed
+3.6 76 438 2 Not Stressed
+3.6 73 437 2 Not Stressed
+3.6 73 440 2 Not Stressed
+3.6 73 441 2 Not Stressed
+3.6 73 440 2 Not Stressed
+3.6 73 440 2 Not Stressed
+3.6 73 439 2 Not Stressed
+3.6 73 442 2 Not Stressed
+3.6 73 440 2 Not Stressed
+3.6 73 439 2 Not Stressed
+3.58 73 439 2 Not Stressed
+3.6 85 441 2 Not Stressed
+3.6 86 440 4 Not Stressed
+3.6 83 441 4 Not Stressed
+3.6 83 443 4 Not Stressed
+3.6 83 442 4 Not Stressed
+3.6 89 440 6 Stressed
+3.6 89 441 5 Stressed
+3.6 89 441 5 Stressed
+3.6 89 441 5 Stressed
+3.6 88 441 5 Stressed
+3.58 88 441 5 Stressed
+3.6 88 441 4 Not Stressed
+3.6 86 440 4 Not Stressed
+3.6 86 441 4 Not Stressed
+3.6 86 440 4 Not Stressed
+3.6 86 440 4 Not Stressed
+3.6 86 439 4 Not Stressed
+3.6 87 441 4 Not Stressed
+3.6 87 441 4 Not Stressed
+3.6 87 442 4 Not Stressed
+3.6 87 442 4 Not Stressed
+3.6 87 442 5 Stressed
+3.6 87 441 5 Stressed
+3.6 87 442 5 Stressed
+3.6 87 439 5 Stressed
+3.6 80 441 5 Stressed
+3.57 80 439 5 Stressed
+3.6 74 441 5 Stressed
+3.6 74 441 5 Stressed
+3.6 74 441 5 Stressed
+3.6 74 441 5 Stressed
+3.6 78 440 5 Stressed
+3.6 93 441 5 Stressed
+3.6 90 443 5 Stressed
+3.6 90 439 5 Stressed
+3.6 97 441 5 Stressed
+3.6 97 441 5 Stressed
+3.6 94 442 5 Stressed
+3.6 94 441 5 Stressed
+3.6 94 442 5 Stressed
+3.6 94 440 5 Stressed
+3.6 94 441 5 Stressed
+3.6 94 441 5 Stressed
+3.6 94 440 5 Stressed
+3.6 94 443 5 Stressed
+3.6 94 449 5 Stressed
+3.6 94 447 5 Stressed
+3.6 94 445 5 Stressed
+3.6 94 448 5 Stressed
+3.6 94 444 5 Stressed
+3.6 94 443 5 Stressed
+3.6 94 443 5 Stressed
+3.6 94 448 5 Stressed
+3.58 109 442 5 Stressed
+3.6 109 442 5 Stressed
+3.6 109 446 5 Stressed
+3.6 109 447 5 Stressed
+3.6 109 442 5 Stressed
+3.6 102 444 7 Stressed
+3.6 102 441 7 Stressed
+3.6 102 441 7 Stressed
+3.6 102 442 7 Stressed
+3.6 102 439 7 Stressed
+3.6 102 439 7 Stressed
+3.6 102 439 7 Stressed
+3.6 102 443 7 Stressed
+3.6 102 442 7 Stressed
+3.6 98 441 7 Stressed
+3.6 98 440 7 Stressed
+3.6 98 441 7 Stressed
+3.6 98 439 7 Stressed
+3.6 116 439 7 Stressed
+3.6 116 438 7 Stressed
+3.6 116 437 7 Stressed
+3.6 116 440 7 Stressed
+3.6 116 439 7 Stressed
+3.6 120 440 7 Stressed
+3.6 120 441 7 Stressed
+3.6 120 439 7 Stressed
+3.6 120 439 7 Stressed
+3.6 125 440 7 Stressed
+3.58 123 440 7 Stressed
+3.6 123 440 7 Stressed
+3.6 123 440 7 Stressed
+3.6 115 442 7 Stressed
+3.6 115 441 7 Stressed
+3.6 104 440 7 Stressed
+3.6 104 440 7 Stressed
+3.6 104 438 7 Stressed
+3.6 104 440 7 Stressed
+3.6 104 436 7 Stressed
+3.6 104 439 7 Stressed
+3.6 104 440 7 Stressed
+3.6 104 438 7 Stressed
+3.6 104 438 7 Stressed
+3.6 104 439 7 Stressed
+3.6 89 440 7 Stressed
+3.57 85 439 7 Stressed
+3.6 85 439 7 Stressed
+3.6 85 439 7 Stressed
+3.6 85 440 7 Stressed
+3.6 85 440 7 Stressed
+3.6 85 439 7 Stressed
+3.6 88 440 7 Stressed
+3.6 88 439 7 Stressed
+3.6 88 440 7 Stressed
+3.6 88 439 7 Stressed
+3.6 88 442 7 Stressed
+3.57 95 440 7 Stressed
+3.6 88 439 7 Stressed
+3.6 88 439 7 Stressed
+3.6 88 440 7 Stressed
+3.6 87 437 7 Stressed
+3.6 87 440 7 Stressed
+3.6 77 440 7 Stressed
+3.6 77 440 5 Stressed
+3.6 81 439 5 Stressed
+3.6 81 438 5 Stressed
+3.6 74 439 5 Stressed
+3.6 74 437 5 Stressed
+3.6 66 438 5 Stressed
+3.6 67 440 5 Stressed
+3.6 67 438 5 Stressed
+3.6 67 438 4 Not Stressed
+3.57 69 439 4 Not Stressed
+3.6 69 439 4 Not Stressed
+3.6 69 439 5 Stressed
+3.6 69 441 5 Stressed
+3.6 75 441 5 Stressed
+3.6 75 440 5 Stressed
+3.6 75 441 5 Stressed
+3.6 75 441 5 Stressed
+3.6 75 441 7 Stressed
+3.6 75 440 4 Not Stressed
+3.6 75 441 6 Stressed
+3.6 75 442 6 Stressed
+3.6 75 440 6 Stressed
+3.6 75 440 6 Stressed
+3.6 75 440 6 Stressed
+3.6 75 440 6 Stressed
+3.6 75 440 6 Stressed
+3.6 75 438 6 Stressed
+3.6 75 439 4 Not Stressed
+3.6 75 440 4 Not Stressed
+3.6 75 440 4 Not Stressed
+3.6 75 441 4 Not Stressed
+3.6 75 438 3 Not Stressed
+3.6 75 439 3 Not Stressed
+3.6 75 441 2 Not Stressed
+3.6 75 441 2 Not Stressed
+3.6 75 441 4 Not Stressed
+3.57 75 441 4 Not Stressed
+3.6 76 441 4 Not Stressed
+3.6 80 440 4 Not Stressed
+3.6 80 439 4 Not Stressed
+3.6 84 441 4 Not Stressed
+3.6 87 440 4 Not Stressed
+3.6 77 440 4 Not Stressed
+3.6 78 440 4 Not Stressed
+3.6 80 440 4 Not Stressed
+3.6 78 440 4 Not Stressed
+3.6 79 440 4 Not Stressed
+3.6 83 440 4 Not Stressed
+3.6 84 440 4 Not Stressed
+3.6 83 440 4 Not Stressed
+3.6 82 439 4 Not Stressed
+3.6 82 438 4 Not Stressed
+3.57 82 440 4 Not Stressed
+3.6 79 440 4 Not Stressed
+3.6 77 440 4 Not Stressed
+3.57 74 440 4 Not Stressed
+3.6 74 441 4 Not Stressed
+3.6 68 441 4 Not Stressed
+3.6 68 442 4 Not Stressed
+3.6 68 441 4 Not Stressed
+3.6 68 439 5 Stressed
+3.6 68 440 5 Stressed
+3.6 66 440 5 Stressed
+3.57 62 440 5 Stressed
+3.6 62 440 6 Stressed
+3.6 61 439 6 Stressed
+3.6 60 440 6 Stressed
+3.6 74 439 6 Stressed
+3.6 74 440 6 Stressed
+3.6 74 440 6 Stressed
+3.6 73 440 6 Stressed
+3.6 73 440 6 Stressed
+3.6 73 440 6 Stressed
+3.6 73 439 2 Not Stressed
+3.6 73 440 2 Not Stressed
+3.6 73 439 2 Not Stressed
+3.6 73 440 2 Not Stressed
+3.6 74 440 2 Not Stressed
+3.6 74 440 2 Not Stressed
+3.58 74 440 2 Not Stressed
+3.6 74 440 2 Not Stressed
+3.6 74 440 2 Not Stressed
+3.6 82 439 2 Not Stressed
+3.6 85 439 2 Not Stressed
+3.6 85 439 2 Not Stressed
+3.6 76 437 2 Not Stressed
+3.6 76 437 2 Not Stressed
+3.6 77 439 2 Not Stressed
+3.6 96 438 2 Not Stressed
+3.6 96 438 4 Not Stressed
+3.6 96 439 4 Not Stressed
+3.6 96 438 4 Not Stressed
+3.6 96 442 4 Not Stressed
+3.6 96 443 4 Not Stressed
+3.6 96 442 4 Not Stressed
+3.57 96 440 5 Stressed
+3.6 96 440 5 Stressed
+3.6 96 440 4 Not Stressed
+3.6 96 440 4 Not Stressed
+3.6 96 440 4 Not Stressed
+3.6 92 440 5 Stressed
+3.6 94 439 5 Stressed
+3.6 94 440 5 Stressed
+3.6 92 439 5 Stressed
+3.6 92 439 5 Stressed
+3.6 92 439 5 Stressed
+3.57 94 438 5 Stressed
+3.6 95 439 5 Stressed
+3.6 88 439 5 Stressed
+3.6 77 438 5 Stressed
+3.6 76 438 5 Stressed
+3.6 76 438 5 Stressed
+3.6 76 438 5 Stressed
+3.6 73 438 5 Stressed
+3.57 73 437 5 Stressed
+3.6 75 438 5 Stressed
+3.6 85 439 5 Stressed
+3.6 85 439 5 Stressed
+3.6 85 439 5 Stressed
+3.6 85 439 5 Stressed
+3.6 85 439 5 Stressed
+3.6 85 438 5 Stressed
+3.57 85 439 5 Stressed
+3.6 85 439 5 Stressed
+3.6 85 438 5 Stressed
+3.6 83 438 5 Stressed
+3.6 82 437 5 Stressed
+3.6 81 438 5 Stressed
+3.6 84 438 5 Stressed
+3.6 82 438 5 Stressed
+3.6 78 437 5 Stressed
+3.6 77 438 5 Stressed
+3.6 83 437 5 Stressed
+3.6 83 437 5 Stressed
+3.58 83 439 5 Stressed
+3.6 83 438 5 Stressed
+3.6 83 438 5 Stressed
+3.6 83 437 5 Stressed
+3.6 85 437 3 Not Stressed
+3.6 85 436 3 Not Stressed
+3.6 85 437 3 Not Stressed
+3.6 85 437 3 Not Stressed
+3.6 80 437 3 Not Stressed
+3.57 87 436 3 Not Stressed
+3.6 85 436 3 Not Stressed
+3.6 85 437 3 Not Stressed
+3.6 85 437 4 Not Stressed
+3.6 85 437 4 Not Stressed
+3.6 85 437 4 Not Stressed
+3.6 84 437 4 Not Stressed
+3.57 76 432 3 Not Stressed
+3.6 72 438 3 Not Stressed
+3.6 72 440 3 Not Stressed
+3.6 72 438 3 Not Stressed
+3.6 72 440 4 Not Stressed
+3.6 72 440 4 Not Stressed
+3.6 72 439 4 Not Stressed
+3.57 72 438 4 Not Stressed
+3.6 72 438 4 Not Stressed
+3.6 72 438 4 Not Stressed
+3.6 72 438 4 Not Stressed
+3.6 79 438 4 Not Stressed
+3.6 73 438 4 Not Stressed
+3.6 71 438 4 Not Stressed
+3.6 72 437 4 Not Stressed
+3.6 77 438 5 Stressed
+3.6 78 438 5 Stressed
+3.6 74 437 5 Stressed
+3.6 72 437 5 Stressed
+3.6 72 438 5 Stressed
+3.6 72 438 5 Stressed
+3.6 72 438 5 Stressed
+3.6 72 438 5 Stressed
+3.6 72 436 5 Stressed
+3.6 72 438 4 Not Stressed
+3.6 72 438 4 Not Stressed
+3.6 72 437 4 Not Stressed
+3.57 79 437 4 Not Stressed
+3.6 77 437 4 Not Stressed
+3.6 81 440 4 Not Stressed
+3.6 81 440 4 Not Stressed
+3.6 81 440 4 Not Stressed
+3.6 95 440 4 Not Stressed
+3.6 91 439 5 Stressed
+3.6 94 438 5 Stressed
+3.6 88 439 5 Stressed
+3.6 88 438 5 Stressed
+3.6 88 437 5 Stressed
+3.6 88 437 5 Stressed
+3.6 88 438 4 Not Stressed
+3.6 88 438 4 Not Stressed
+3.6 88 439 4 Not Stressed
+3.6 88 439 3 Not Stressed
+3.57 88 438 3 Not Stressed
+3.6 85 438 4 Not Stressed
+3.6 68 438 3 Not Stressed
+3.6 72 438 4 Not Stressed
+3.6 69 438 4 Not Stressed
+3.57 72 438 4 Not Stressed
+3.6 76 437 4 Not Stressed
+3.6 78 438 4 Not Stressed
+3.6 78 437 4 Not Stressed
+3.58 78 434 4 Not Stressed
+3.6 77 437 4 Not Stressed
+3.58 81 440 4 Not Stressed
+3.6 81 440 4 Not Stressed
+3.6 81 439 4 Not Stressed
+3.6 79 439 4 Not Stressed
+3.6 79 439 4 Not Stressed
+3.6 79 435 4 Not Stressed
+3.6 79 437 4 Not Stressed
+3.6 79 437 4 Not Stressed
+3.6 79 438 4 Not Stressed
+3.6 79 439 4 Not Stressed
+3.6 79 440 4 Not Stressed
+3.6 79 440 4 Not Stressed
+3.6 79 441 4 Not Stressed
+3.6 82 440 4 Not Stressed
+3.6 82 440 4 Not Stressed
+3.6 75 439 4 Not Stressed
+3.57 76 439 4 Not Stressed
+3.6 77 439 5 Stressed
+3.6 74 439 5 Stressed
+3.6 75 439 5 Stressed
+3.6 75 439 5 Stressed
+3.6 75 437 4 Not Stressed
+3.6 75 438 4 Not Stressed
+3.6 75 437 4 Not Stressed
+3.6 75 437 4 Not Stressed
+3.6 75 437 4 Not Stressed
+3.6 75 436 4 Not Stressed
+3.6 73 436 4 Not Stressed
+3.6 73 436 4 Not Stressed
+3.6 76 436 4 Not Stressed
+3.6 73 437 4 Not Stressed
+3.6 70 437 4 Not Stressed
+3.57 70 436 4 Not Stressed
+3.6 74 436 4 Not Stressed
+3.6 74 436 4 Not Stressed
+3.6 74 436 4 Not Stressed
+3.6 74 435 4 Not Stressed
+3.6 76 436 4 Not Stressed
+3.6 78 436 4 Not Stressed
+3.6 77 436 4 Not Stressed
+3.6 79 436 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 72 435 4 Not Stressed
+3.6 71 436 4 Not Stressed
+3.6 71 439 4 Not Stressed
+3.6 71 439 4 Not Stressed
+3.6 71 438 4 Not Stressed
+3.6 71 438 4 Not Stressed
+3.6 71 438 4 Not Stressed
+3.6 71 436 4 Not Stressed
+3.6 71 437 4 Not Stressed
+3.6 70 437 4 Not Stressed
+3.6 70 436 4 Not Stressed
+3.6 70 436 4 Not Stressed
+3.6 70 436 4 Not Stressed
+3.6 70 436 4 Not Stressed
+3.6 80 436 4 Not Stressed
+3.6 80 434 4 Not Stressed
+3.6 80 435 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 77 435 4 Not Stressed
+3.6 77 435 4 Not Stressed
+3.6 79 435 4 Not Stressed
+3.6 79 435 4 Not Stressed
+3.6 79 435 4 Not Stressed
+3.6 71 433 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 77 435 4 Not Stressed
+3.6 79 434 4 Not Stressed
+3.6 79 434 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.57 92 434 4 Not Stressed
+3.6 92 435 5 Stressed
+3.57 92 435 5 Stressed
+3.6 92 437 5 Stressed
+3.6 92 437 5 Stressed
+3.6 92 436 4 Not Stressed
+3.6 96 437 4 Not Stressed
+3.6 95 435 4 Not Stressed
+3.6 91 436 4 Not Stressed
+3.6 94 436 4 Not Stressed
+3.6 94 436 4 Not Stressed
+3.6 92 436 4 Not Stressed
+3.6 84 436 4 Not Stressed
+3.56 78 434 5 Stressed
+3.6 73 436 4 Not Stressed
+3.6 74 436 4 Not Stressed
+3.6 74 436 4 Not Stressed
+3.6 72 436 4 Not Stressed
+3.6 72 436 4 Not Stressed
+3.6 72 436 4 Not Stressed
+3.6 73 436 4 Not Stressed
+3.6 72 435 4 Not Stressed
+3.6 72 436 4 Not Stressed
+3.6 72 435 4 Not Stressed
+3.6 72 435 4 Not Stressed
+3.6 74 436 4 Not Stressed
+3.6 73 436 4 Not Stressed
+3.6 72 436 4 Not Stressed
+3.6 74 436 4 Not Stressed
+3.57 79 436 4 Not Stressed
+3.6 79 435 5 Stressed
+3.6 75 435 5 Stressed
+3.6 79 436 3 Not Stressed
+3.6 80 435 3 Not Stressed
+3.6 81 435 4 Not Stressed
+3.6 82 435 4 Not Stressed
+3.6 84 435 4 Not Stressed
+3.6 84 435 4 Not Stressed
+3.6 84 435 4 Not Stressed
+3.6 84 435 4 Not Stressed
+3.6 81 435 5 Stressed
+3.6 81 435 2 Not Stressed
+3.6 80 434 4 Not Stressed
+3.57 77 435 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.57 78 435 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 81 435 4 Not Stressed
+3.6 80 435 4 Not Stressed
+3.6 80 435 4 Not Stressed
+3.6 77 435 4 Not Stressed
+3.6 77 435 4 Not Stressed
+3.6 83 435 4 Not Stressed
+3.6 79 434 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 72 435 4 Not Stressed
+3.6 67 434 4 Not Stressed
+3.6 67 435 4 Not Stressed
+3.6 66 435 4 Not Stressed
+3.6 66 435 5 Stressed
+3.6 71 435 5 Stressed
+3.6 71 435 5 Stressed
+3.6 71 434 5 Stressed
+3.6 75 434 5 Stressed
+3.6 69 436 5 Stressed
+3.6 69 435 5 Stressed
+3.6 77 435 5 Stressed
+3.6 77 434 5 Stressed
+3.6 77 434 5 Stressed
+3.6 77 434 5 Stressed
+3.6 83 434 5 Stressed
+3.6 83 434 5 Stressed
+3.57 83 432 5 Stressed
+3.6 83 433 5 Stressed
+3.6 83 432 5 Stressed
+3.6 83 432 5 Stressed
+3.6 83 433 5 Stressed
+3.6 83 434 5 Stressed
+3.6 89 434 5 Stressed
+3.6 89 435 5 Stressed
+3.6 98 434 6 Stressed
+3.6 98 435 4 Not Stressed
+3.6 98 435 7 Stressed
+3.6 98 435 7 Stressed
+3.6 113 434 5 Stressed
+3.6 113 435 5 Stressed
+3.6 113 438 4 Not Stressed
+3.6 113 435 4 Not Stressed
+3.57 113 438 4 Not Stressed
+3.6 113 435 4 Not Stressed
+3.6 113 436 5 Stressed
+3.6 113 436 5 Stressed
+3.6 113 435 5 Stressed
+3.57 113 434 5 Stressed
+3.6 113 433 5 Stressed
+3.6 113 436 5 Stressed
+3.6 113 435 7 Stressed
+3.6 113 435 7 Stressed
+3.6 113 435 7 Stressed
+3.57 113 434 7 Stressed
+3.6 113 435 7 Stressed
+3.6 113 435 7 Stressed
+3.6 113 435 7 Stressed
+3.6 109 435 7 Stressed
+3.6 102 434 7 Stressed
+3.6 95 434 7 Stressed
+3.6 95 440 7 Stressed
+3.6 95 440 7 Stressed
+3.6 95 438 7 Stressed
+3.6 95 435 7 Stressed
+3.6 95 440 7 Stressed
+3.6 95 435 7 Stressed
+3.6 95 435 7 Stressed
+3.6 95 435 7 Stressed
+3.6 95 435 7 Stressed
+3.57 95 434 7 Stressed
+3.57 88 435 7 Stressed
+3.6 88 435 7 Stressed
+3.6 88 435 7 Stressed
+3.6 88 434 7 Stressed
+3.57 88 435 7 Stressed
+3.6 97 434 7 Stressed
+3.6 98 439 7 Stressed
+3.6 98 436 7 Stressed
+3.6 98 435 7 Stressed
+3.6 98 440 7 Stressed
+3.6 90 436 7 Stressed
+3.56 90 436 7 Stressed
+3.6 90 435 7 Stressed
+3.6 90 435 7 Stressed
+3.6 90 435 7 Stressed
+3.6 90 436 7 Stressed
+3.6 90 435 7 Stressed
+3.6 90 435 4 Not Stressed
+3.6 90 435 4 Not Stressed
+3.6 90 435 4 Not Stressed
+3.6 90 434 4 Not Stressed
+3.6 71 435 4 Not Stressed
+3.6 71 435 5 Stressed
+3.6 69 436 5 Stressed
+3.6 69 435 5 Stressed
+3.6 69 434 5 Stressed
+3.6 69 435 5 Stressed
+3.57 69 438 5 Stressed
+3.6 69 437 5 Stressed
+3.6 69 435 5 Stressed
+3.6 69 435 4 Not Stressed
+3.6 69 435 4 Not Stressed
+3.6 69 435 5 Stressed
+3.6 69 436 5 Stressed
+3.6 69 440 5 Stressed
+3.6 69 436 5 Stressed
+3.6 69 436 5 Stressed
+3.6 69 436 7 Stressed
+3.6 74 436 7 Stressed
+3.6 80 435 7 Stressed
+3.6 80 434 4 Not Stressed
+3.6 80 434 6 Stressed
+3.6 80 435 6 Stressed
+3.6 80 433 6 Stressed
+3.6 81 435 6 Stressed
+3.6 82 435 6 Stressed
+3.6 82 434 6 Stressed
+3.6 82 435 6 Stressed
+3.6 82 435 6 Stressed
+3.6 82 435 6 Stressed
+3.6 82 435 6 Stressed
+3.6 82 435 6 Stressed
+3.6 95 436 6 Stressed
+3.6 97 437 6 Stressed
+3.57 97 437 6 Stressed
+3.6 97 437 6 Stressed
+3.6 97 436 7 Stressed
+3.6 97 436 5 Stressed
+3.6 97 435 5 Stressed
+3.6 113 436 4 Not Stressed
+3.6 121 436 4 Not Stressed
+3.6 121 437 4 Not Stressed
+3.6 121 436 4 Not Stressed
+3.6 121 435 4 Not Stressed
+3.6 121 435 5 Stressed
+3.6 121 434 5 Stressed
+3.6 111 436 5 Stressed
+3.6 111 435 5 Stressed
+3.6 111 436 5 Stressed
+3.6 111 435 7 Stressed
+3.57 111 435 7 Stressed
+3.6 111 435 7 Stressed
+3.6 111 435 7 Stressed
+3.6 110 435 7 Stressed
+3.6 97 436 7 Stressed
+3.6 97 435 7 Stressed
+3.6 97 435 7 Stressed
+3.6 97 435 7 Stressed
+3.6 97 435 7 Stressed
+3.6 97 440 7 Stressed
+3.54 97 436 7 Stressed
+3.57 97 436 7 Stressed
+3.6 97 436 7 Stressed
+3.6 98 436 7 Stressed
+3.6 98 437 7 Stressed
+3.6 98 436 7 Stressed
+3.6 98 436 7 Stressed
+3.6 98 435 7 Stressed
+3.6 98 438 7 Stressed
+3.6 98 438 7 Stressed
+3.6 98 437 7 Stressed
+3.6 98 435 7 Stressed
+3.6 98 436 7 Stressed
+3.56 98 437 7 Stressed
+3.6 98 437 7 Stressed
+3.6 98 436 7 Stressed
+3.6 98 435 7 Stressed
+3.57 98 435 7 Stressed
+3.6 98 436 7 Stressed
+3.6 98 437 7 Stressed
+3.6 98 437 7 Stressed
+3.6 98 435 7 Stressed
+3.6 98 438 7 Stressed
+3.6 98 436 7 Stressed
+3.6 98 438 7 Stressed
+3.6 98 438 7 Stressed
+3.6 98 436 7 Stressed
+3.6 98 436 7 Stressed
+3.6 98 437 7 Stressed
+3.6 98 437 7 Stressed
+3.6 98 437 7 Stressed
+3.6 98 436 7 Stressed
+3.6 98 434 7 Stressed
+3.6 85 434 7 Stressed
+3.6 85 435 7 Stressed
+3.6 85 436 7 Stressed
+3.6 85 436 7 Stressed
+3.6 85 435 7 Stressed
+3.6 85 436 7 Stressed
+3.6 85 438 7 Stressed
+3.56 85 436 7 Stressed
+3.6 85 436 7 Stressed
+3.6 85 437 7 Stressed
+3.6 85 435 4 Not Stressed
+3.56 85 435 4 Not Stressed
+3.6 85 435 4 Not Stressed
+3.6 85 434 4 Not Stressed
+3.6 68 435 5 Stressed
+3.6 70 435 5 Stressed
+3.6 70 434 5 Stressed
+3.6 70 434 5 Stressed
+3.6 70 435 5 Stressed
+3.6 71 434 5 Stressed
+3.6 79 435 5 Stressed
+3.6 79 436 5 Stressed
+3.57 79 436 5 Stressed
+3.6 79 433 5 Stressed
+3.6 74 435 4 Not Stressed
+3.6 74 435 4 Not Stressed
+3.6 74 435 4 Not Stressed
+3.6 74 435 4 Not Stressed
+3.56 75 435 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 77 435 4 Not Stressed
+3.6 77 435 4 Not Stressed
+3.6 77 435 5 Stressed
+3.6 80 434 5 Stressed
+3.6 76 435 5 Stressed
+3.6 80 435 5 Stressed
+3.6 78 434 5 Stressed
+3.6 78 435 5 Stressed
+3.56 79 433 5 Stressed
+3.6 80 434 5 Stressed
+3.6 78 435 5 Stressed
+3.6 78 434 5 Stressed
+3.6 78 434 5 Stressed
+3.6 80 434 5 Stressed
+3.6 80 433 4 Not Stressed
+3.6 77 434 4 Not Stressed
+3.6 77 434 4 Not Stressed
+3.6 82 434 4 Not Stressed
+3.6 82 435 4 Not Stressed
+3.57 78 435 4 Not Stressed
+3.6 78 436 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 432 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 78 433 4 Not Stressed
+3.57 78 434 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 433 4 Not Stressed
+3.6 78 433 4 Not Stressed
+3.6 78 433 4 Not Stressed
+3.6 78 433 4 Not Stressed
+3.6 78 433 4 Not Stressed
+3.6 79 434 4 Not Stressed
+3.6 79 434 4 Not Stressed
+3.6 79 434 4 Not Stressed
+3.6 79 434 4 Not Stressed
+3.6 79 434 4 Not Stressed
+3.6 79 435 4 Not Stressed
+3.6 76 434 4 Not Stressed
+3.6 75 434 4 Not Stressed
+3.6 75 434 4 Not Stressed
+3.6 75 434 4 Not Stressed
+3.6 75 434 4 Not Stressed
+3.6 75 434 4 Not Stressed
+3.6 75 433 4 Not Stressed
+3.6 75 433 4 Not Stressed
+3.6 75 433 4 Not Stressed
+3.57 69 431 4 Not Stressed
+3.6 72 432 4 Not Stressed
+3.6 71 432 4 Not Stressed
+3.6 78 432 4 Not Stressed
+3.6 81 433 4 Not Stressed
+3.6 81 436 4 Not Stressed
+3.6 81 434 4 Not Stressed
+3.6 81 434 4 Not Stressed
+3.6 81 433 4 Not Stressed
+3.6 81 434 4 Not Stressed
+3.6 81 433 4 Not Stressed
+3.6 81 435 4 Not Stressed
+3.6 81 433 4 Not Stressed
+3.6 81 434 4 Not Stressed
+3.6 81 433 4 Not Stressed
+3.6 81 435 4 Not Stressed
+3.6 81 434 4 Not Stressed
+3.6 81 435 4 Not Stressed
+3.6 81 436 4 Not Stressed
+3.6 81 435 4 Not Stressed
+3.6 81 435 4 Not Stressed
+3.6 81 435 4 Not Stressed
+3.6 81 434 4 Not Stressed
+3.6 81 434 4 Not Stressed
+3.6 81 435 4 Not Stressed
+3.6 81 433 4 Not Stressed
+3.6 80 434 4 Not Stressed
+3.6 80 436 4 Not Stressed
+3.6 80 433 4 Not Stressed
+3.57 80 430 4 Not Stressed
+3.6 80 435 4 Not Stressed
+3.6 80 434 4 Not Stressed
+3.6 80 434 4 Not Stressed
+3.6 80 434 4 Not Stressed
+3.6 80 434 4 Not Stressed
+3.6 80 434 4 Not Stressed
+3.6 80 434 4 Not Stressed
+3.6 80 434 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 436 4 Not Stressed
+3.6 78 432 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.56 78 436 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 77 433 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.56 78 433 4 Not Stressed
+3.6 78 433 4 Not Stressed
+3.6 78 433 4 Not Stressed
+3.6 78 433 4 Not Stressed
+3.6 78 433 4 Not Stressed
+3.6 78 434 4 Not Stressed
+3.6 78 435 4 Not Stressed
+3.6 78 437 4 Not Stressed
+3.6 73 436 4 Not Stressed
+3.6 73 434 4 Not Stressed
+3.6 73 434 4 Not Stressed
+3.6 73 435 4 Not Stressed
+3.6 73 435 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 75 434 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.56 75 435 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 75 434 4 Not Stressed
+3.6 75 433 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 75 434 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 75 434 4 Not Stressed
+3.56 75 436 4 Not Stressed
+3.6 75 436 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 75 435 4 Not Stressed
+3.6 72 435 4 Not Stressed
+3.59 66 435 4 Not Stressed
+3.6 66 435 4 Not Stressed
+3.6 66 435 4 Not Stressed
+3.6 64 433 4 Not Stressed
+3.6 64 434 3 Not Stressed
+3.6 73 437 2 Not Stressed
+3.6 73 438 2 Not Stressed
+3.6 73 436 2 Not Stressed
+3.6 73 436 2 Not Stressed
+3.6 73 435 2 Not Stressed
+3.6 73 434 2 Not Stressed
+3.6 73 434 2 Not Stressed
+3.6 73 434 4 Not Stressed
+3.6 79 433 3 Not Stressed
+3.6 79 434 3 Not Stressed
+3.6 84 434 3 Not Stressed
+3.6 81 433 3 Not Stressed
+3.6 86 433 4 Not Stressed
+3.6 86 434 6 Stressed
+3.6 91 433 6 Stressed
+3.6 91 433 6 Stressed
+3.56 91 436 6 Stressed
+3.6 79 435 6 Stressed
+3.6 79 441 6 Stressed
+3.6 79 436 6 Stressed
+3.6 79 440 6 Stressed
+3.6 79 441 6 Stressed
+3.6 83 438 6 Stressed
+3.6 83 437 6 Stressed
+3.6 83 437 6 Stressed
+3.6 83 437 6 Stressed
+3.6 83 437 5 Stressed
+3.6 74 436 4 Not Stressed
+3.6 74 436 4 Not Stressed
+3.6 74 436 4 Not Stressed
+3.6 76 434 4 Not Stressed
+3.6 73 436 4 Not Stressed
+3.6 71 438 4 Not Stressed
+3.6 71 435 4 Not Stressed
+3.6 71 436 4 Not Stressed
+3.6 71 436 4 Not Stressed
+3.6 71 435 4 Not Stressed
+3.6 71 437 4 Not Stressed
+3.6 71 437 4 Not Stressed
+3.6 71 437 4 Not Stressed
+3.6 71 434 4 Not Stressed
+3.6 71 432 5 Stressed
+3.6 71 435 4 Not Stressed
+3.56 69 435 5 Stressed
+3.6 73 435 5 Stressed
+3.6 73 437 5 Stressed
+3.6 73 435 5 Stressed
+3.6 73 434 4 Not Stressed
+3.6 73 435 4 Not Stressed
+3.6 73 433 4 Not Stressed
+3.6 93 435 2 Not Stressed
+3.6 93 435 5 Stressed
+3.6 93 436 5 Stressed
+3.6 93 435 5 Stressed
+3.6 93 435 5 Stressed
+3.6 93 435 5 Stressed
+3.6 96 435 6 Stressed
+3.6 96 435 6 Stressed
+3.6 96 435 7 Stressed
+3.56 96 434 7 Stressed
+3.6 96 435 7 Stressed
+3.6 96 435 5 Stressed
+3.6 96 433 5 Stressed
+3.6 96 434 5 Stressed
+3.6 96 434 5 Stressed
+3.6 96 435 4 Not Stressed
+3.6 99 434 4 Not Stressed
+3.6 99 436 4 Not Stressed
+3.6 99 439 5 Stressed
+3.6 99 435 5 Stressed
+3.56 99 436 5 Stressed
+3.6 99 436 5 Stressed
+3.6 99 437 5 Stressed
+3.6 99 436 5 Stressed
+3.6 99 435 5 Stressed
+3.6 99 435 5 Stressed
+3.6 99 435 5 Stressed
+3.6 99 434 7 Stressed
+3.6 99 435 7 Stressed
+3.6 99 434 7 Stressed
+3.6 98 433 7 Stressed
+3.6 95 438 7 Stressed
+3.6 95 437 7 Stressed
+3.6 95 436 7 Stressed
+3.6 95 435 7 Stressed
+3.6 95 435 7 Stressed
+3.56 95 435 7 Stressed
+3.6 95 434 7 Stressed
+3.6 95 435 7 Stressed
+3.6 81 435 7 Stressed
+3.6 81 433 7 Stressed
+3.6 81 434 7 Stressed
+3.6 81 434 7 Stressed
+3.6 75 434 7 Stressed
+3.6 78 435 7 Stressed
+3.6 78 435 4 Not Stressed
+3.6 78 435 5 Stressed
+3.6 78 435 5 Stressed
+3.56 74 435 5 Stressed
+3.6 73 435 5 Stressed
+3.6 96 434 5 Stressed
+3.6 96 435 5 Stressed
+3.6 93 435 5 Stressed
+3.6 93 435 5 Stressed
+3.6 100 435 5 Stressed
+3.6 100 435 5 Stressed
+3.6 100 432 5 Stressed
+3.6 107 435 5 Stressed
+3.6 111 435 5 Stressed
+3.6 104 435 5 Stressed
+3.6 105 434 5 Stressed
+3.6 90 433 5 Stressed
+3.6 90 434 5 Stressed
+3.6 89 434 5 Stressed
+3.56 80 434 5 Stressed
+3.6 74 434 5 Stressed
+3.6 73 434 5 Stressed
+3.6 74 434 5 Stressed
+3.6 71 434 5 Stressed
+3.6 71 434 5 Stressed
+3.6 78 433 5 Stressed
+3.6 78 433 5 Stressed
+3.6 78 433 4 Not Stressed
+3.57 81 432 4 Not Stressed
+3.6 81 434 5 Stressed
+3.56 81 433 5 Stressed
+3.6 81 432 5 Stressed
+3.6 81 433 5 Stressed
+3.6 81 433 5 Stressed
+3.6 81 433 5 Stressed
+3.6 81 435 5 Stressed
+3.6 81 445 5 Stressed
+3.6 81 436 5 Stressed
+3.6 81 435 5 Stressed
+3.6 81 435 4 Not Stressed
+3.6 88 434 4 Not Stressed
+3.6 99 435 4 Not Stressed
+3.6 93 434 4 Not Stressed
+3.6 90 433 4 Not Stressed
+3.6 90 434 5 Stressed
+3.6 85 434 4 Not Stressed
+3.57 82 434 5 Stressed
+3.6 78 433 4 Not Stressed
+3.6 76 433 4 Not Stressed
+3.6 75 433 4 Not Stressed
+3.6 79 434 4 Not Stressed
+3.6 79 435 4 Not Stressed
+3.6 79 435 4 Not Stressed
+3.6 79 433 4 Not Stressed
+3.6 79 433 4 Not Stressed
+3.6 79 435 4 Not Stressed
+3.6 79 433 4 Not Stressed
+3.56 79 433 4 Not Stressed
+3.6 79 433 3 Not Stressed
+3.6 79 433 4 Not Stressed
+3.6 79 433 4 Not Stressed
+3.6 79 433 4 Not Stressed
+3.6 79 430 4 Not Stressed
+3.6 83 433 4 Not Stressed
+3.6 83 433 4 Not Stressed
+3.6 88 433 4 Not Stressed
+3.6 96 433 4 Not Stressed
+3.6 96 433 4 Not Stressed
+3.6 96 432 5 Stressed
+3.6 98 433 5 Stressed
+3.6 98 432 5 Stressed
+3.57 98 432 5 Stressed
+3.6 98 432 5 Stressed
+3.6 98 432 5 Stressed
+3.6 98 432 5 Stressed
+3.59 98 443 5 Stressed
+3.6 98 438 5 Stressed
+3.6 98 435 5 Stressed
+3.6 98 438 5 Stressed
+3.6 98 436 5 Stressed
+3.6 98 436 5 Stressed
+3.6 98 436 5 Stressed
+3.6 98 434 5 Stressed
+3.6 98 438 5 Stressed
+3.6 98 437 5 Stressed
+3.56 98 435 5 Stressed
+3.59 98 433 5 Stressed
+3.6 98 438 5 Stressed
+3.6 98 437 7 Stressed
+3.56 98 438 7 Stressed
+3.6 98 435 7 Stressed
+3.6 98 435 7 Stressed
+3.6 98 433 7 Stressed
+3.6 98 433 7 Stressed
+3.6 98 435 7 Stressed
+3.6 98 435 7 Stressed
+3.56 98 435 7 Stressed
+3.6 98 435 7 Stressed
+3.6 96 435 7 Stressed
+3.6 96 434 7 Stressed
+3.6 96 432 7 Stressed
+3.6 93 435 7 Stressed
+3.6 93 434 7 Stressed
+3.6 93 435 7 Stressed
+3.6 93 436 7 Stressed
+3.6 93 439 7 Stressed
+3.6 93 439 7 Stressed
+3.6 93 439 7 Stressed
+3.6 93 439 7 Stressed
+3.6 93 439 7 Stressed
+3.6 93 439 7 Stressed
+3.57 91 432 7 Stressed
+3.56 85 434 7 Stressed
+3.6 78 435 7 Stressed
+3.6 75 435 7 Stressed
+3.6 75 435 7 Stressed
+3.6 75 434 4 Not Stressed
+3.6 75 434 5 Stressed
+3.6 72 434 5 Stressed
+3.6 68 434 5 Stressed
+3.6 68 434 5 Stressed
+3.6 68 433 5 Stressed
+3.6 65 434 5 Stressed
+3.55 65 434 4 Not Stressed
+3.6 65 434 5 Stressed
+3.6 65 435 5 Stressed
+3.6 65 434 5 Stressed
+3.6 68 434 5 Stressed
+3.6 68 434 5 Stressed
+3.6 68 434 5 Stressed
+3.6 68 434 4 Not Stressed
+3.6 68 435 4 Not Stressed
+3.6 68 433 4 Not Stressed
+3.6 68 434 4 Not Stressed
+3.6 68 433 4 Not Stressed
+3.6 68 434 4 Not Stressed
+3.6 68 434 4 Not Stressed
+3.6 68 435 3 Not Stressed
+3.6 68 434 2 Not Stressed
+3.56 74 433 2 Not Stressed
+3.6 74 432 2 Not Stressed
+3.6 68 433 2 Not Stressed
+3.6 68 433 2 Not Stressed
+3.6 68 433 6 Stressed
+3.6 68 433 6 Stressed
+3.6 72 430 6 Stressed
+3.6 84 433 6 Stressed
+3.6 84 433 4 Not Stressed
+3.6 79 433 4 Not Stressed
+3.6 79 432 2 Not Stressed
+3.6 79 433 2 Not Stressed
+3.56 79 432 2 Not Stressed
+3.6 79 434 2 Not Stressed
+3.6 79 434 2 Not Stressed
+3.6 79 431 2 Not Stressed
+3.6 79 432 2 Not Stressed
+3.6 79 432 2 Not Stressed
+3.6 79 435 2 Not Stressed
+3.56 79 432 6 Stressed
+3.6 79 433 6 Stressed
+3.6 79 433 6 Stressed
+3.6 79 432 2 Not Stressed
+3.6 79 433 5 Stressed
+3.6 74 433 5 Stressed
+3.6 74 436 5 Stressed
+3.6 74 434 5 Stressed
+3.6 74 433 5 Stressed
+3.56 74 433 5 Stressed
+3.6 74 436 5 Stressed
+3.6 74 433 5 Stressed
+3.6 74 434 5 Stressed
+3.6 74 433 4 Not Stressed
+3.6 74 435 4 Not Stressed
+3.6 74 433 4 Not Stressed
+3.6 74 433 4 Not Stressed
+3.6 74 433 4 Not Stressed
+3.6 74 433 4 Not Stressed
+3.6 74 433 4 Not Stressed
+3.56 74 433 4 Not Stressed
+3.6 74 433 4 Not Stressed
+3.6 74 433 4 Not Stressed
+3.6 74 433 4 Not Stressed
+3.6 77 433 4 Not Stressed
+3.6 77 433 4 Not Stressed
+3.59 77 433 4 Not Stressed
+3.6 77 433 4 Not Stressed
+3.6 77 433 4 Not Stressed
+3.6 77 433 4 Not Stressed
+3.6 84 430 4 Not Stressed
+3.6 79 432 4 Not Stressed
+3.6 79 432 4 Not Stressed
+3.6 73 432 4 Not Stressed
+3.6 76 432 4 Not Stressed
+3.6 81 431 4 Not Stressed
+3.56 81 432 4 Not Stressed
+3.6 81 432 4 Not Stressed
+3.59 78 432 4 Not Stressed
+3.6 78 431 4 Not Stressed
+3.6 75 432 4 Not Stressed
+3.6 75 432 4 Not Stressed
+3.6 78 432 4 Not Stressed
+3.6 76 432 4 Not Stressed
+3.6 75 432 4 Not Stressed
+3.6 78 432 4 Not Stressed
+3.6 81 431 4 Not Stressed
+3.56 79 431 4 Not Stressed
+3.6 80 431 4 Not Stressed
+3.59 82 431 4 Not Stressed
+3.6 78 431 4 Not Stressed
+Recording Finished

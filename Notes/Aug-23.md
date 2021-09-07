@@ -42,9 +42,22 @@
   * Q: Any policy on going into uni to pick them up?
   * <img src=".\Pics\case.png" alt="image" width="200"/> <img src=".\Pics\lid.png" alt="image" width="200"/>
 
+* Q: Are you happy with my project thus far, and do you think it is enough?
+  * I.e. Should I keep adding stuff, making ML better, extra functionality, outputs/feedback?
+  * Or just start working on final assessments?
+
 ## Todo
 
 * Record more data
+  * Do CV
+* Live plotting / red-green indicator / graphical representation
+  * What are you predicting on/for
+    * Relationship between GSR + HR and stress
+    * How do you know this is correct?
+      * Test on someone else
+      * Accuracy
+      * Figure out the model: decision boundary
+        * What specific values HR/GSR are being used in model; weights/decision boundaries
 * Train other machine learning models
   * Decision Tree, SVM
 * Update Project Journal
@@ -109,6 +122,7 @@ Presentation
 * Software
 * Data collection + processing (how)
   * Tested on other people
+  * Why this model/why data
 * Experimentation
   * Stress vs other emotions
   * Tested on other people
