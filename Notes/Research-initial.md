@@ -267,4 +267,3 @@
         1. Naive Bayes Gaussian classifier: Naïve Bayes Gaussian classifier predicts the result based on the probabilities of each feature’s Gaussian distribution
         1. Random Forest with depth between 1 to 10:  fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control overfitting
         1. Support Vector Machine: find the best hyper-plan to divide the data points into different classes
-
