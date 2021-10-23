@@ -10,7 +10,7 @@ Supervised by Dr. Yan Wong
 
 ## Final Python Code for Live Prediction + GUI
 
-* [Link](https://github.com/LizChai/Stress_Detection_FYP/blob/main/python_scripts/predicting_live_hrv_sc.ipynb)
+* [Link](https://github.com/LizChai/Stress_Detection_FYP/blob/main/python_scripts/live_gui_prediction.ipynb)
 
 
 ## Data Collection
