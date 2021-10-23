@@ -8,10 +8,6 @@ Supervised by Dr. Yan Wong
 * [Link](https://github.com/LizChai/Stress_Detection_FYP/blob/main/arduinoIDE/StressRecording/StressRecording.ino)
 
 
-## Jupyter Lab environment
-
-* [Link](https://github.com/LizChai/Stress_Detection_FYP/tree/main/fyp_dev)
-
 ## Final Python Code for Live Prediction + GUI
 
 * [Link](https://github.com/LizChai/Stress_Detection_FYP/blob/main/python_scripts/predicting_live_hrv_sc.ipynb)
