@@ -1,4 +1,7 @@
-# Stress_Detection_FYP
+# Stress Detection Final Year Project 2021
+Monash Univeristy Electrical and Computer Systems Engineering
+Elizabeth Chai
+Supervised by Dr. Yan Wong
 
 ## Final Arduino Code for AdaFruit Feather HUZZAH32
 
