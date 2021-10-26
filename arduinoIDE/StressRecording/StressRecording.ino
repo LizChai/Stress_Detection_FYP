@@ -3,8 +3,8 @@ bool wifi_status = true;
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "TP-LINK_9E63";
-const char* password = "97475811";
+const char* ssid = "###";
+const char* password = "###";
 const char* id = "ESP32Client";
 const char* topic = "data_reading";
 
